@@ -1,6 +1,6 @@
 ---
 username: alena
-name: Alena Curtis Whatsherface
+name: Alena Curtis
 image: '/images/01-1.jpg'
 cover:
 location: Mexico
