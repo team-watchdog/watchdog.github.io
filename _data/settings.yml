@@ -12,29 +12,31 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Blog'
-      url: '/blog/'
-    - title: 'Authors'
-      url: '/authors/'
+    - title: 'Investigations'
+      url: '/investigations/'
+    - title: 'Projects'
+      url: '/projects/'
+    - title: 'Podcast'
+      url: '/podcast/'
     - title: 'Videos'
       url: '/videos/'
-    - title: 'Pages'
+    - title: 'About us'
       submenu:
       - url: '/about/'
         title: 'About'
-      - url: '/contact/'
-        title: 'Contact'
-      - url: '/elements/'
-        title: 'Elements'
+      - url: '/contributors/'
+        title: 'Contributors'
+      - url: '/op-ethics'
+        title: 'Operational Principles'
 
 
 #-------------------------------
 # Hero Settings
 hero:
   enable: true
-  hero__title: Thoughts, stories and ideas.
-  hero__description: Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.
-  hero__image: # You can add hero image. For example '/images/06.jpg'
+  hero__title: Watchdog is an open-source research collective in Sri Lanka.
+  hero__description: We bring journalism, data science, and tech to the table. Since 2019, we've hunt misinformation, investigated matters of public welfare, and built software tools - either to help the country work better, or to help you understand how it can.
+  hero__image: /images/general/watchdogfrontpage.jpeg
 
 
 #-------------------------------
