@@ -1,7 +1,7 @@
 ---
 #-------------------------------
 # General Site Settings
-baseurl: "/watchdog.github.io/" # the subpath of your site, e.g. /blog
+baseurl: "/watchdog.github.io" # the subpath of your site, e.g. /blog
 url: "https://team-watchdog.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 #-------------------------------
