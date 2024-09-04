@@ -22,11 +22,11 @@ menu__settings:
       url: 'videos/'
     - title: 'About us'
       submenu:
-      - url: '/about/'
+      - url: 'about/'
         title: 'About'
-      - url: '/op-ethics/'
+      - url: 'op-ethics/'
         title: 'Operational Ethics'
-      - url: '/funders/'
+      - url: 'funders/'
         title: 'Funding'
 
 
