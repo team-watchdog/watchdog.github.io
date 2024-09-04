@@ -1,3 +1,4 @@
+---
 #-------------------------------
 # Site Settings
 title: Mria
@@ -5,30 +6,28 @@ logo: # You can add own logo. For example '/images/logo.png'.
 description: Mria is a multipurpose blog theme for Jekyll
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
-
 #-------------------------------
 # Navigation Settings
 menu__settings:
   menu__items:
-    - title: 'Home'
-      url: '/'
-    - title: 'Investigations'
-      url: 'investigations/'
-    - title: 'Projects'
-      url: 'projects/'
-    - title: 'Podcast'
-      url: 'podcast/'
-    - title: 'Videos'
-      url: 'videos/'
-    - title: 'About us'
+    - title: "Home"
+      url: "/"
+    - title: "Investigations"
+      url: "investigations/"
+    - title: "Projects"
+      url: "projects/"
+    - title: "Podcast"
+      url: "podcast/"
+    - title: "Videos"
+      url: "videos/"
+    - title: "About us"
       submenu:
-      - url: 'about/'
-        title: 'About'
-      - url: 'op-ethics/'
-        title: 'Operational Ethics'
-      - url: 'funders/'
-        title: 'Funding'
-
+        - url: "about/"
+          title: "About"
+        - url: "op-ethics/"
+          title: "Operational Ethics"
+        - url: "funders/"
+          title: "Funding"
 
 #-------------------------------
 # Hero Settings
@@ -38,14 +37,12 @@ hero:
   hero__description: We bring journalism, data science, and tech to the table. Since 2019, we've hunt misinformation, investigated matters of public welfare, and built software tools - either to help the country work better, or to help you understand how it can.
   hero__image: /watchdog.github.io/images/general/watchdogbanner16x9.jpg
 
-
 #-------------------------------
 # Author Global Settings
-author:z
+author:
   author__name: Watchdog
   author__bio: An open-source research collective.
   author__avatar: /images/general/watchdoglogosq.png
-
 
 #-------------------------------
 # Blog Section Settings
@@ -54,7 +51,6 @@ blog__settings:
   blog__title: Latest Posts
   blog__description:
 
-
 #-------------------------------
 # Videos Section Settings
 videos__settings:
@@ -62,13 +58,11 @@ videos__settings:
   videos__title: Latest Videos
   videos__description:
 
-
 #-------------------------------
 # Tag Section Settings
 tag__settings:
   enable: true
   tag: travel # To display the tag section, specify your favorite tag.
-
 
 #-------------------------------
 # Author Section Settings
@@ -81,7 +75,6 @@ author__section:
   author__section__big__image: /images/100.jpg
   author__section__small__image: /images/101.jpg
 
-
 #-------------------------------
 # Newsletter Settings
 mailchimp__settings:
@@ -93,36 +86,32 @@ mailchimp__settings:
   mailchimp__button__text: Subscribe
   mailchimp__background__image: /images/subscribe-bg.jpg
 
-
 #-------------------------------
 # Footer Settings
 footer__description: Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.
 
-
 # Social Links
 social:
-- {icon: "twitter", link: "https://twitter.com"}
-- {icon: "facebook", link: "https://facebook.com"}
-- {icon: "codepen", link: "https://codepen.io"}
-- {icon: "pinterest", link: "https://pinterest.com"}
-- {icon: "vimeo", link: "https://vimeo.com"}
+  - { icon: "twitter", link: "https://twitter.com" }
+  - { icon: "facebook", link: "https://facebook.com" }
+  - { icon: "codepen", link: "https://codepen.io" }
+  - { icon: "pinterest", link: "https://pinterest.com" }
+  - { icon: "vimeo", link: "https://vimeo.com" }
 
 # Example of adding a new link to the footer - {icon: "instagram", link: "https://instagram.com"}
 # Other icons can be found at https://ionicons.com/v4/
 
-
 # Footer Navigation
 footer__menu__settings:
   menu__items:
-    - title: 'Home'
-      url: '/'
-    - title: 'About'
-      url: '/about/'
-    - title: 'Contact'
-      url: '/contact/'
-    - title: 'Elements'
-      url: '/elements/'
-
+    - title: "Home"
+      url: "/"
+    - title: "About"
+      url: "/about/"
+    - title: "Contact"
+      url: "/contact/"
+    - title: "Elements"
+      url: "/elements/"
 
 #-------------------------------
 # Contact Settings
@@ -133,11 +122,9 @@ contact:
 # NOTE
 # Mria theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
 
-
 #-------------------------------
 # Comment Section (Disqus)
 disqus-identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvodstudio-demo
-
 
 #-------------------------------
 # Google Analytics
