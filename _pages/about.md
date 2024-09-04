@@ -39,7 +39,7 @@ Loud, photogenic and perpetually hungry. No known compentencies to speak of. A n
 
 ![Yudha]({{site.baseurl}}/images/people/yudha.jpg)
 
-Author, data scientist and journalist. His published research papers centers on natural language processing, corpus linguistics in resource-poor languages, and machine learning; his work in journalism centers around examining large-scale infrastructures, atrocities and misinformation, often using machine learning for data analysis. His fiction has won the Gratiaen award, been nominated for the Nebula and Independent Games Festival awards, appeared in venues like Wired, ForeignPolicy and Slate, and been Washington Post and Audible bestsellers. He has also shown up on Forbes' 30 Under 30.
+Author, data scientist and journalist. His research papers center on machine learning and corpus linguistics in resource-poor languages. His fiction has won the Gratiaen award, been nominated for the Nebula and Independent Games Festival awards, appeared in venues like Wired, ForeignPolicy and Slate, and been Washington Post and Audible bestsellers. He has also shown up on Forbes' 30 Under 30.
 
 ### Nisal Periyapperuma
   Co-founder, Chief Technology Officer
