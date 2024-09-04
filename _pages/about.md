@@ -9,13 +9,15 @@ Watchdog began in April 2019, days after the Easter Sunday bombings in Sri Lanka
 
 The original incarnation of Watchdog was staffed by volunteer factcheckers and translators. We’ve grown significantly since then, turning to deep, investigative journalism and tool-building. Many of our team have strong journalism and research backgrounds, with a sprinkling of computer science to make sure we have the tools to keep up with our ambitions.
 
+For an outside perspective of how we do, [this piece by RestofWorld (now on mirrored Harvard's Nieman Lab) is worth reading](https://www.niemanlab.org/2022/06/meet-the-fact-checkers-decoding-sri-lankas-meltdown/), although it misses out on a lot of our team.
+
 ## How we work
 
 We've been called an “open-source intelligence research collective”, and that's fairly accurate. We use a lot of OSINT techniques - a combination of data scraping, analysis of publicly available documents and datasets, paired with old-school boots-on-the-ground journalism. And sometimes people take notice. We've shown up on places like these:
 
 ![logos]({{site.baseurl}}/images/general/otherlogos.png)
 
-As a core part of Appendix, we also design and act as a testing ground for new technology. This includes work like Dissect and various parts of our data scraping, information extraction and archive operations. 
+As a core part of Appendix, we also design and act as a testing ground for new technology. This includes work like Dissect and various parts of our data scraping, information extraction and archive operations.
 
 These are our [Operational ethics]({{site.baseurl}}/op-ethics). That's our big list of how we operate and why. And here are our [funders and affiliated institutions]({{site.baseurl}}/funders). That's our list of who gave us money and what for.
 
@@ -29,7 +31,7 @@ These are our [Operational ethics]({{site.baseurl}}/op-ethics). That's our big l
 
 ![Brownie]({{site.baseurl}}/images/people/brownie.jpg)
 
-Loud, photogenic and perpetually hungry. No known compentencies to speak of. A nepotistic hire. Flees the building when things get dire. Given his inability to function as a cat, he makes an exemplary CEO. 
+Loud, photogenic and perpetually hungry. No known compentencies to speak of. A nepotistic hire. Flees the building when things get dire. Given his inability to function as a cat, he makes an exemplary CEO.
 
 
 ### Yudhanjaya Wijeratne
@@ -84,19 +86,6 @@ Multidisciplinary broadcast journalist. Over a decade as a producer, TV anchor a
 
 Mirror Award-winning journalist with bylines in Roar Media, Buzzfeed News, Arab News, Scroll.in, Seattle Globalist, and Ceylon Today. Former Communications and PR Manager at The Ceylon Chamber of Commerce.
 
-### Tineeka de Silva
-  Associate Editor
-
-![Tineeka]({{site.baseurl}}/images/people/tee.jpeg)
-
-Editor, writer and communications consultant on award winning corporate projects with 16+ years’ experience in various industries. Consultant to the corporate sector, specialising in PR and communications strategies. Cat mom and amateur gemologist.
-
-### Joshua Perera
-  Associate Editor
-
-![Joshua]({{site.baseurl}}/images/people/joshua.jpeg)
-
-Editor, writer and researcher. Former teacher of French and English Literature. Artist behind Watchdog's Salt Water Pilgrims. Aspiring novelist, horror aficionado and artist.
 
 ### Amalini De Sayrah
   Researcher
@@ -112,6 +101,14 @@ Writer, researcher and photographer, focused on human rights and marginalization
 
 Academic with a Bachelor of Arts. Historian in training with an interest in colonial, postcolonial and contemporary Sri lankan history. Researcher, part time writer and collector of literary curios.
 
+### Joshua Perera
+  Researcher
+
+![Joshua]({{site.baseurl}}/images/people/joshua.jpeg)
+
+Editor, writer and researcher. Former teacher of French and English Literature. Artist behind Watchdog's Salt Water Pilgrims. Aspiring novelist, horror aficionado and artist.
+
+
 ### Kesavan Selvarajah
   Translator
 
@@ -120,7 +117,7 @@ Academic with a Bachelor of Arts. Historian in training with an interest in colo
 A lecturer at the University of Kelaniya, developing a career that combines teaching and research while maintaining his interest in machine learning.
 
 ### Nishadi Gunatilake
-  Researcher and Translator 
+  Researcher and Translator
 
 ![Nishadi]({{site.baseurl}}/images/people/nishadi.jpg)
 
@@ -131,7 +128,7 @@ Attorney-at-law and sworn translator. Experienced in development sector programm
 
 ![Ishan]({{site.baseurl}}/images/people/Ishan.png)
 
-Full-stack engineer and hacker with a background in cybersecurity. Has worked on many of Watchdog's public-facing tech, including the protest tracker, inflation monitor, and Dissect. 
+Full-stack engineer and hacker with a background in cybersecurity. Has worked on many of Watchdog's public-facing tech, including the protest tracker, inflation monitor, and Dissect.
 
 ### Sathyajit Loganathan
   Engineer
@@ -154,19 +151,13 @@ Multidisciplinary engineer and fabricator with multiple degrees in engineering a
 
 Software engineer whose work with Watchdog involves the construction of a 1:1 Digital Twin of the urban design and traffic movement dynamics of the city of Colombo, using government data and satellite imagery from the European Space Agency, alongside others.
 
-### Sachintha Adikari
-  Junior Researcher
+### Tineeka de Silva
+  Project Manager
 
-![Sachintha]({{site.baseurl}}/images/people/sachinta.jpeg)
+![Tineeka]({{site.baseurl}}/images/people/tee.jpeg)
 
-Data analyst in training and Google sheets ninja. Research support across multiple projects and the game programmer behind Watchdog's Salt Water Pilgrims. 
+Editor, writer and communications consultant on award winning corporate projects with 16+ years’ experience in various industries. Consultant to the corporate sector, specialising in PR and communications strategies. Cat mom and amateur gemologist.
 
-### Nabeela Iqbal
-  Social Media Manager
-
-![Nabeela]({{site.baseurl}}/images/people/nabeela.jpg)
-
-Peacebuilder and activist; Back in 2020 Amnesty International named her a young human rights defender in the face of the pandemic. Works in women's and minority rights and loves using the internet to tell stories. Handled social media platforms for Watchdog.
 
 ### Rukshana Rizwie
   Project Manager
@@ -175,3 +166,16 @@ Peacebuilder and activist; Back in 2020 Amnesty International named her a young 
 
 A global communications specialist and journalist with a background in project management, mainstream media research and institutional communication in Sri Lanka. Frequent collaborator with multiple NGOs.
 
+### Sachintha Adikari
+  Junior Researcher
+
+![Sachintha]({{site.baseurl}}/images/people/sachinta.jpeg)
+
+Data analyst in training and Google sheets ninja. Research support across multiple projects and the game programmer behind Watchdog's Salt Water Pilgrims.
+
+### Nabeela Iqbal
+  Social Media Manager
+
+![Nabeela]({{site.baseurl}}/images/people/nabeela.jpg)
+
+Peacebuilder and activist; in 2020, Amnesty International named her a young human rights defender in the face of the pandemic. Works in women's and minority rights and loves using the internet to tell stories. Handled social media platforms for Watchdog.

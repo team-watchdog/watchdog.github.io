@@ -20,7 +20,7 @@ The Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH implemen
 4) Build and publish our open-source DIY agricultural sensor kit
 5) Design and publish our journalism and media literacy course for young journalists and the general public
 
-Link: https://www.giz.de and https://www.lirneasia.net
+Link: [giz.de](https://www.giz.de) and [lirneasia.net](https://www.lirneasia.net)
 
 ### INTERNEWS
 
@@ -28,12 +28,12 @@ Link: https://www.giz.de and https://www.lirneasia.net
 
 Internews is a media support nonprofit working in 100+ countries. They train journalists, tackle disinformation, and help media outlets become financially sustainable. They funded us to:
 
-1) Pay for servers, especially our homebrew hardware, on which we store our data, processing, and backups 
+1) Pay for servers, especially our homebrew hardware, on which we store our data, processing, and backups
 2) Create Watchdog.AI, which reduced to load on us having to personally answer questions by responding to our readers based on our articles. It serves 3000+ readers in a week, including some kid who managed to jailbreak it to help them write essays on Sri Lankan kings
 
-Link: https://internews.org/
+Link: [internews.org](https://internews.org/)
 
-### OCCRP (Primary Funder)	
+### OCCRP (Primary Funder)
 
 ![occrp]({{site.baseurl}}/images/general/OCCRP-logo.png)
 
@@ -43,16 +43,15 @@ The Organized Crime and Corruption Reporting Project (OCCRP) is an investigative
 2) Keep our regular research operations and factchecks running in English, Sinhala and Tamil
 3) Maintain an actual office and the infrastructure for people to actually come and work with us
 
-Link: https://www.occrp.org/en
+Link: [occrp.org](https://www.occrp.org/en)
 
 
-### IREX	
+### IREX
 
 ![irex]({{site.baseurl}}/images/general/irex-logo.png)
 
-The International Research & Exchanges Board (IREX) is an international, nonprofit organization that specializes in global education and development in more than 100 countries. 
+The International Research & Exchanges Board (IREX) is an international, nonprofit organization that specializes in global education and development in more than 100 countries.
 
-They funded us to translate, re-design and deliver a media literacy and anti-misinformation syllabus for Sri Lanka based on their LEARN TO DISCERN syllabus (https://www.irex.org/project/learn-discern). A large amount of this syllabus focused on COVID misinformation, as it was the reality of that time. 
+They funded us to translate, re-design and deliver a media literacy and anti-misinformation syllabus for Sri Lanka based on their LEARN TO DISCERN syllabus (https://www.irex.org/project/learn-discern). A large amount of this syllabus focused on COVID misinformation, as it was the reality of that time.
 
-Link: https://www.irex.org/
-
+Link: [irex](https://www.irex.org/)

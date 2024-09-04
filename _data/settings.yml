@@ -22,12 +22,12 @@ menu__settings:
       url: 'videos/'
     - title: 'About us'
       submenu:
-      - url: 'about/'
+      - url: '/about/'
         title: 'About'
-      - url: 'contributors/'
-        title: 'Contributors'
-      - url: 'op-ethics/'
+      - url: '/op-ethics/'
         title: 'Operational Ethics'
+      - url: '/funders/'
+        title: 'Funding'
 
 
 #-------------------------------
@@ -41,10 +41,10 @@ hero:
 
 #-------------------------------
 # Author Global Settings
-author:
-  author__name: Alena Curtis
-  author__bio: I’m a published content creator, brand copywriter, photographer, and social media content creator and manager. I help brands connect with their customers by developing engaging content that entertains, educates, and offers value to their audience.
-  author__avatar: /images/01-1.jpg
+author:z
+  author__name: Watchdog
+  author__bio: An open-source research collective.
+  author__avatar: /images/general/watchdoglogosq.png
 
 
 #-------------------------------
