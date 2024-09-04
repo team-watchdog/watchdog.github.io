@@ -17,7 +17,7 @@ We've been called an “open-source intelligence research collective”, and tha
 
 As a core part of Appendix, we also design and act as a testing ground for new technology. This includes work like Dissect and various parts of our data scraping, information extraction and archive operations. 
 
-These are our Operational ethics. Here’s how we go about Handling Conflict - whether that’s related to a story we’re working on or an internal issue. Lastly, we’re known for our no-bullshit style (which tends to annoy people who expect flowery abstractions and vagueness), so here’s our Language guide.
+These are our [Operational ethics]({{site.baseurl}}/op-ethics). That's our big list of how we operate and why. And here are our [funders and affiliated institutions]({{site.baseurl}}/funders). That's our list of who gave us money and what for.
 
 
 
@@ -157,7 +157,7 @@ Software engineer whose work with Watchdog involves the construction of a 1:1 Di
 ### Sachintha Adikari
 Junior Researcher
 
-![Sachintha]({{site.baseurl}}/images/people/sachinta.jpg)
+![Sachintha]({{site.baseurl}}/images/people/sachinta.jpeg)
 
 Data analyst in training and Google sheets ninja. Research support across multiple projects and the game programmer behind Watchdog's Salt Water Pilgrims. 
 
@@ -171,7 +171,7 @@ Peacebuilder and activist; Back in 2020 Amnesty International named her a young 
 ### Rukshana Rizwie
 Project Manager
 
-![Rukshana]({{site.baseurl}}/images/people/rukshana.jpg)
+![Rukshana]({{site.baseurl}}/images/people/rukshana.png)
 
 A global communications specialist and journalist with a background in project management, mainstream media research and institutional communication in Sri Lanka. Frequent collaborator with multiple NGOs.
 

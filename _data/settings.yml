@@ -13,7 +13,7 @@ menu__settings:
     - title: 'Home'
       url: '/'
     - title: 'Investigations'
-      url: '/investigations/'
+      url: 'investigations/'
     - title: 'Projects'
       url: 'projects/'
     - title: 'Podcast'
@@ -26,7 +26,7 @@ menu__settings:
         title: 'About'
       - url: 'contributors/'
         title: 'Contributors'
-      - url: 'op-ethics'
+      - url: 'op-ethics/'
         title: 'Operational Ethics'
 
 

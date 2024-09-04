@@ -2,7 +2,7 @@
 layout: page
 title: Operational Ethics
 permalink: /op-ethics/
-image: '/images/general/watchdogpeople.jpeg'
+image: '/images/general/watchdogbanner16x9.jpg'
 ---
 
 # General Principles
