@@ -2,7 +2,7 @@
 layout: page
 title: Funding and Institutional Affiliations
 permalink: /funders/
-image: '/images/general/watchdogbanner16x9.jpeg'
+image: '/images/general/watchdogbanner16x9.jpg'
 ---
 
 Over the years, people have given us money to do our various operations. A good tenet of investigative work is to follow the money - to figure out who's being paid to do what. In that spirit, and for interests of complete transparency, here's our list.
@@ -48,7 +48,7 @@ Link: [occrp.org](https://www.occrp.org/en)
 
 ### IREX
 
-![irex]({{site.baseurl}}/images/general/irex-logo.png)
+![irex]({{site.baseurl}}/images/general/irex-logo.svg)
 
 The International Research & Exchanges Board (IREX) is an international, nonprofit organization that specializes in global education and development in more than 100 countries.
 
