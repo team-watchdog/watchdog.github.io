@@ -9,19 +9,13 @@ Watchdog began in April 2019, days after the Easter Sunday bombings in Sri Lanka
 
 The original incarnation of Watchdog was staffed by volunteer factcheckers and translators. We’ve grown significantly since then, turning to deep, investigative journalism and tool-building. Many of our team have strong journalism and research backgrounds, with a sprinkling of computer science to make sure we have the tools to keep up with our ambitions.
 
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/103.jpg" loading="lazy">
-    <img src="/images/104.jpg" loading="lazy">
-  </div>
-  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
-</div>
-
 ## How we work
 
-We've been called an “open-source intelligence research collective”, and that's fairly accurate. We use a lot of OSINT techniques - a combination of data scraping, analysis of publicly available documents and datasets, paired with old-school boots-on-the-ground journalism.
+We've been called an “open-source intelligence research collective”, and that's fairly accurate. We use a lot of OSINT techniques - a combination of data scraping, analysis of publicly available documents and datasets, paired with old-school boots-on-the-ground journalism. And sometimes people take notice. We've shown up on places like these:
 
-As a core part of Appendix, we also design and act as a testing ground for new technology. This includes work like Dissect and various parts of our data scraping, information extraction and archive operations.
+![logos]({{site.baseurl}}/images/general/otherlogos.png)
+
+As a core part of Appendix, we also design and act as a testing ground for new technology. This includes work like Dissect and various parts of our data scraping, information extraction and archive operations. 
 
 These are our Operational ethics. Here’s how we go about Handling Conflict - whether that’s related to a story we’re working on or an internal issue. Lastly, we’re known for our no-bullshit style (which tends to annoy people who expect flowery abstractions and vagueness), so here’s our Language guide.
 
