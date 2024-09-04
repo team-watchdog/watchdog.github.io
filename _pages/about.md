@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-image: '/images/102.jpg'
+image: '/images/general/watchdogpeople.jpeg'
 ---
 
 Watchdog began in April 2019, days after the Easter Sunday bombings in Sri Lanka, as a group of concerned citizens trying to counter misinformation. We did this amidst government crackdowns on freedom of expression and mass hysteria caused by fake news and rumors, building a mobile app that was used by over 200,000 people to verify information and counteract rumors in their own networks.
@@ -117,12 +117,12 @@ Software engineer with a background in server side development, cloud infrastruc
 ### Sahan Panditharathne
 Engineer
 
-Mechatronics engineer working on physical engineering, sensor technology and agricultural automation. Designed and built our open-source DIY farm monitoring systems, from hardware to software.
+Multidisciplinary engineer and fabricator with multiple degrees in engineering and industrial automation from the University of Colombo. His work with Watchdog involves building complex, open-source, networked environmental monitoring solutions that are robust to wide variations in distance, temperature, humidity and habitat changes.
 
 ### Nimesha Periyapperuma
 Engineer
 
-Software engineer working on our data infrastructure and analysis systems. 
+Software engineer whose work with Watchdog involves the construction of a 1:1 Digital Twin of the urban design and traffic movement dynamics of the city of Colombo, using government data and satellite imagery from the European Space Agency, alongside others.
 
 ### Sachintha Adikari
 Junior Researcher
