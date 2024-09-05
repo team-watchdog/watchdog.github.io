@@ -4,7 +4,7 @@
 title: Mria
 logo: # You can add own logo. For example '/images/logo.png'.
 description: Mria is a multipurpose blog theme for Jekyll
-color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+color_scheme: light # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 #-------------------------------
 # Navigation Settings
@@ -22,11 +22,11 @@ menu__settings:
       url: "/videos/"
     - title: "About us"
       submenu:
-        - url: "{{site.baseurl}}/about/"
+        - url: "/about/"
           title: "About"
-        - url: "{{site.baseurl}}/op-ethics/"
+        - url: "/op-ethics/"
           title: "Operational Ethics"
-        - url: "{{site.baseurl}}/funders/"
+        - url: "/funders/"
           title: "Funding"
 
 #-------------------------------
@@ -67,7 +67,7 @@ tag__settings:
 #-------------------------------
 # Author Section Settings
 author__section:
-  enable: true
+  enable: false
   author__section__title: Hello, my name is Alena. I’m reviewer and content creator.
   author__section__description: I’m a published content creator, brand copywriter, photographer, and social media content creator and manager. I help brands connect with their customers by developing engaging content that entertains, educates, and offers value to their audience.
   aurhor__section__button__text: More About Me

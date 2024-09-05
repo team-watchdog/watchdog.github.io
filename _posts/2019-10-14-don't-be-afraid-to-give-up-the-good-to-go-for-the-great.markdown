@@ -3,7 +3,7 @@ layout: post
 title: Don't be afraid to give up the good to go for the great
 description:
 date: 2019-09-14 15:01:35 +0300
-author: alena
+author: alena, brownie
 image: '/images/16.jpg'
 video_embed: https://www.youtube.com/embed/62bWUYRxi8g
 tags: [lifestyle, video]

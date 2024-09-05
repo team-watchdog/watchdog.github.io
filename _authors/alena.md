@@ -8,4 +8,4 @@ website: https://www.google.com
 twitter: https://twitter.com
 facebook: https://www.facebook.com
 ---
-I have experience in photographing beauty, fashion, e-commerce, and product photography for various brands.
+The default author profile, preserved here so we remember the metadata tags.

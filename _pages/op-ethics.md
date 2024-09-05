@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Operational Ethics
-permalink: /op-ethics/
+permalink: op-ethics/
 image: '/images/general/watchdogbanner16x9.jpg'
 ---
 
@@ -13,7 +13,7 @@ Our Purpose
 ## Skin in the game:
 
     1) To examine rumors and misinformation that has the potential to harm the public, and to ensure that true facts about each case are laid out and presented to the public in an objective, easily digestible manner.
-    
+
     2) To investigate matters of importance to public interest.
 
 We do not claim to be impartial observers; such a thing is impossible. We have skin in the game. Our interest is in promoting truth, nuance, detail and conceptual clarity of matters that affect the welfare or well-being of the general public. This often means (but is not limited to) matters of infrastructure, healthcare, environment, education outcomes, legislature, and non-trivial affairs of the body politic.
@@ -23,15 +23,15 @@ We do not strive to break news: we strive for accuracy, and to be as close to th
 ## How we approach information
 
     1) In our work, we use a lot of data gathered by third-party organizations, be it government, research units or other news organizations. When we do so, we credit them.
-   
+
     2) Trust nothing and no-one. Neither professional bodies nor academic titles are to be taken at face value. Anecdotal evidence is only evidence of an anecdote. Assemble multiple data points.
-   
+
     3) When tracing information, whether text, image or video, always attempt to establish the point of origin and the date of origin.
-    
+
     4) Research studies, when being considered for inclusion, must first be read thoroughly to examine the sample space and methods used in the study. For this, examine the ‘methodology’ section (and ‘data’ section, if there is one) in a paper. Cite the full study in footnotes, APA style, and mention the sample space in the content itself.
-    
+
     5) Also understand that research papers also indulge in narrative: authors will typically cite other work as evidence or a target for their argument. Check the abstracts and summary sections of the papers cited in the introduction of a paper to see whether the papers cited actually say what the authors claim. Lastly, when mentioning a study, “scientists say” or “a study said” is not enough.
-    
+
     6)Third-party facts or reports cited must preferably be confirmed by another news organization; the best preference is for us to call up whoever is responsible or central to the matter and obtain direct quotes, recorded, regarding the matter. We should clearly distinguish between personal interviews, press statements, observations gathered at events such as press conferences, telephone or email interviews, and written statements.
 
 Attribution to another publication, though, cannot serve as license to print rumors that would not meet our own standards. For example, if a claim is made that 50% of Sri Lankans have experienced credit card fraud, we must locate the source of the claim and examine it to understand how the claim was generated. Did the source interview every Sri Lankan? Did they (as in most commonly done with research) examine a cross-section of the Sri Lankan population? Was this cross-section demographically and geographically representative of the population of Sri Lanka? Is the cross-section actually big enough to account for outliers, statistical errors, and sampling bias?
@@ -98,19 +98,19 @@ To help with this, a few short heuristics:
     1) Always look for and cite multiple sources. Either link them or put them in an understandable section at the bottom.
 
     2) Aim for a clear, direct and conversational tone. Be blunt. Swearing is fine, as long as it serves a clear purpose of conveying some useful information. We’re not here to be polite: we’re here to be right.
-    
+
     3) Active voice, not passive. “...was stated by the CEB”. “...treasury was depleted by the banker.” These are all far weaker than: “The CEB stated that” “The banker depleted the treasury.”
-    
+
     4) Explain jargon and acronyms; explain institutions, relations, and authority. Every field has specific operational language that makes sense to practitioners within a field. However, we cannot expect general readers to know this jargon. What is the PUCSL? What is a regulator? Even when it lengthens an article, take the time to pen a concise explanation when introducing a term.
 
     5) When editing, aim for a grade 8-9 readability score on the Flesch-Kincaid scale. Reader’s Digest operates at a grade 8-9 level; Time Magazine is slightly lower. Hemingway’s The Old Man and the Sea is at a grade 4 level. Essentially, nobody should need a college degree to read our work.
-    
+
     6) Use commas. Use the Oxford comma. This is what happens when you don’t:
 
     ![commas]({{site.baseurl}}/images/general/use-commas.png)
-    
+
     7) Name first, designation second Mahinda Rajapaksa, Prime Minister of Sri Lanka.
-    
+
     8) On numbers: 0-9: use letters. If you insist on using numerals, make sure it’s a double digit: 01, 02, 03. Else, say one two three. 10 and upwards: use numerals.
 
 
@@ -173,14 +173,14 @@ We may accept any gifts or discounts available to the general public.
 
 ## Public relations and institutional affiliation
 
-Watchdog staff members are free to work with other organizations, except where there is a conflict of interest: 
+Watchdog staff members are free to work with other organizations, except where there is a conflict of interest:
 
-    1)  if the institution in question performs the same functions as Watchdog 
-    
-    2)  is an entity that Watchdog covers or would cover in the interests of the public 
-    
+    1)  if the institution in question performs the same functions as Watchdog
+
+    2)  is an entity that Watchdog covers or would cover in the interests of the public
+
     3)  where performing work or an act of public relations for said other organization would appear (whether real or apparent) to imply Watchdog’s affiliation with said organization or its goals
-    
+
     4) or where such work impedes staff responsibilities to Watchdog
 
 We freely acknowledge that outside appearances can enhance the reputation of its bylines and serve the paper’s interests. We are generally entitled to accept freelance assignments that do not directly compete with Watchdog. We may accept speaking fees, honorariums, expense reimbursement and free transportation from speaking engagements. We are free to discuss their own activities in public, provided their comments do not create an impression that they lack journalistic impartiality or speak for Watchdog as a whole.
