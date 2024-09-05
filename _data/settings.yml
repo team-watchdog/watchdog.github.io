@@ -1,9 +1,9 @@
 ---
 #-------------------------------
 # Site Settings
-title: Mria
-logo: # You can add own logo. For example '/images/logo.png'.
-description: Mria is a multipurpose blog theme for Jekyll
+title: Watchdog, Sri Lanka
+logo: /images/general/watchdoglogosq.png
+description: Watchdog is a factchecker and open-source research collective.
 color_scheme: light # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 #-------------------------------
@@ -12,8 +12,8 @@ menu__settings:
   menu__items:
     - title: "Home"
       url: "/"
-    - title: "Investigations"
-      url: "/investigations/"
+    - title: "Articles"
+      url: "/articles/"
     - title: "Projects"
       url: "/projects/"
     - title: "Podcast"

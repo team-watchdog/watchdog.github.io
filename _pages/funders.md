@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Funding and Institutional Affiliations
-permalink: funders/
+permalink: /funders/
 image: '/images/general/watchdogbanner16x9.jpg'
 ---
 

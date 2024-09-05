@@ -1,11 +1,10 @@
 ---
-username: alena
-name: Alena Curtis
-image: '/images/01-1.jpg'
+username: watchdog
+name: Team Watchdog
+image: '/images/general/watchdoglogosq.png'
 cover:
-location: Mexico
-website: https://www.google.com
-twitter: https://twitter.com
-facebook: https://www.facebook.com
+location: Sri Lanka
+website: https://www.watchdog.team
+twitter: https://x.com/teamwatchdog
+facebook: https://www.facebook.com/teamwatchdog/
 ---
-The default author profile, preserved here so we remember the metadata tags.

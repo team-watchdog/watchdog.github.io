@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Operational Ethics
-permalink: op-ethics/
+permalink: /op-ethics/
 image: '/images/general/watchdogbanner16x9.jpg'
 ---
 
