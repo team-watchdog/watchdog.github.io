@@ -1,0 +1,73 @@
+---
+layout: post
+title: Millennium Challenge Corporation — Questions (Part 3/3)
+description: A compilation of the MCC factchecks
+date: 2019-11-12
+author: nisal
+image: '/images/articles/mcc/mcc-2-header.png'
+tags: [investigation, mcc]
+tags_color: '#835F46'
+---
+by [Nisal Periyapperuma](/authors/nisal)
+
+We raised the questions our users and ourselves had about the MCC agreement to the U.S. Embassy in Colombo. Special thanks to Benjamin J. Baughman of the U.S. Embassy in Colombo.
+
+Here are the questions and the responses we got — verbatim:
+
+### Q: The World Bank recently upgraded Sri Lanka into a mid-income country with a GNI per capita of over $4000, how does this affect the agreement? How long does Sri Lanka have to sign the agreement?
+
+In July 2019, Sri Lanka graduated to upper middle income country (UMIC) status. Both MCC’s Board of Directors and the U.S. Congress have historically expressed reservations about providing MCC grants to UMICs. However, with the support of MCC’s Board of Directors, MCC can continue to partner with Sri Lanka since it was selected as eligible for a compact before becoming a UMIC. While there is no hard deadline to sign the agreement, MCC cannot guarantee how much longer the $480 million grant will be available for Sri Lanka. The Board could decide to reallocate funding set aside for Sri Lanka to other eligible countries during its upcoming annual selection meeting.
+
+Section 2.6: Government Resources; Budget.
+
+    The Government shall provide all funds and other resources, and shall take all other actions that are necessary to carry out the Government’s responsibilities under this Compact.
+
+###  Q: Should the Sri Lankan government itself provide funds if the project expenses go over the budget?
+
+The grant agreement includes sufficient program administration funding to ensure that MCA Sri Lanka, acting on behalf of the Government, can carry out its responsibilities of managing and implementing the grant. If any activities exceed the budget during implementation, the Government has multiple options available to it. In agreement with MCC, it can reallocate surplus funds from another activity in the grant to cover the deficit, de-scope the project, or fund the balance with its own resources.
+
+Section 6.4: Governing Law.
+
+    This Compact is an international agreement and as such shall be governed by international law.
+
+###  Q: Does International law apply only to the enforcement of this agreement? For example, the tuition master video (fact-check) claimed that under this agreement, Sri Lankan law could not be exercised against the US citizens. Can you clarify this?
+
+The tuition master’s video was removed by Facebook the day after it was posted for being false. Section 6.4 is standard language in every single MCC grant agreement and most international agreements between Sri Lanka and its development partners. In addition, MCC requires Parliamentary approval of all Compacts to ensure Parliamentary ownership and support. Once approved by the Sri Lankan Parliament, the grant will have the parity of status of domestic law in Sri Lanka. This is the formal opinion of the Attorney General’s Department, which participated in grant agreement negotiations and has approved the grant agreement. Regular American citizens living anywhere in Sri Lanka will continue to be subject to Sri Lankan law.
+
+Section 3.6: Procurement and Grants
+
+    The Government shall ensure that the procurement of all goods, works, and services by the Government or any Provider to implement the Program shall be in accordance with MCC’s Program Procurement Guidelines (the “MCC Program Procurement Guidelines”). Accordingly, neither the Government Procurement Guidelines (2006), nor any other laws or regulations of Sri Lanka regarding procurements shall apply to procurements to implement the Program.
+
+###  Q: Can you clarify why procurement is done this way? Is this standard procedure for all recipients of the MCC grant or just Sri Lanka?
+
+MCC seems to use the same set of Program Procurement Guidelines in all Compact partner countries. As written in the grant agreement, these guidelines require that “open, fair, and competitive procedures must be used in a transparent manner to solicit, award, and administer contracts and to procure goods, works, and services.” 
+
+These are not American procurement guidelines, and there are no preferences for American companies. They are World Bank-modified procurement guidelines that MCC has used globally since its inception to maximise transparency and fairness and ensure quality and good value for money for U.S. taxpayer dollars through open competition.
+
+### How about Intellectual Property?
+
+    The Government grants to MCC a perpetual, irrevocable, royalty-free, worldwide, fully paid, assignable right and license to practice or have practiced on its behalf (including the right to produce, reproduce, publish, repurpose, use, store, modify, or make available) any portion or portions of Intellectual Property as MCC sees fit in any medium, now known or hereafter developed, for any purpose whatsoever.
+
+![ip]({{site.baseurl}}/images/articles/mcc/mcc-3-twitter.png)
+A concern expressed by a Twitter user
+
+### Q: Does Section 3.9 provide free and full access of Land Data to MCC and in turn to US Government?
+
+Section 3.9 is standard language across all MCC agreements and not applicable, as there is no new intellectual property envisaged under the Land Project requested by the Government of Sri Lanka. Intellectual property generally refers to creations of the human intellect, such as are copyrights, patents, trademarks, or proprietary technology. As MCC has been asked to help support long-existing, under-resourced Government of Sri Lanka initiatives and systems, there is nothing being invented or any new technology being developed and patented. For example, MCC funding would be used to fund the mapping of state lands in a number of districts and the inputting of those data into the existing e-State Land Information Management System. This is an already existing public database. Any newly populated data in the system would likewise be publicly available.
+
+MCC funding would also be used to support existing Government of Sri Lanka efforts to scan and digitize paper records in the e-Land Registry system. These records already exist and, once digitized, would be accessible via the Government’s e-Land Registry, an already public system. Digitizing land information and making records publicly available, as the Government of Sri Lanka has slowly been doing for years, not only makes land transactions more efficient, but it also increases transparency and makes them less susceptible to fraud and corruption
+
+![ip]({{site.baseurl}}/images/articles/mcc/mcc-3-status.png)
+
+### Q: Is it usual to have immunity from Sri Lankan law in these kind of agreements? (Question sent in by a user)
+
+This is standard language across MCC and other bilateral grant agreements. It is included to ensure that MCC and the U.S. Government are not sued, for example, when the grant agreement is being managed and overseen by the Government of Sri Lanka.
+
+Section 8.3 Employment Requirements
+
+    The Government shall arrange for any foreign personnel (individual consultants or personnel of firms) providing goods, works, or services under the Compact to be provided promptly with any necessary entry or work visas.
+
+### Q: Would this include military personnel? Is the Sri Lankan government allowed to deny entry to anyone in the interest of national security etc.?
+
+The MCC grant has nothing to do with the U.S. military. There will never be any military personnel providing any kind of goods, works, or services under the grant and requesting an entry visa. Section 8.3 is standard language in all MCC grant agreements to date and is included to help avoid visa-related delays in implementation if MCA Sri Lanka were to competitively select any foreign firms to provide services, goods, or works under the program. As a sovereign nation, the Government of Sri Lanka can deny anyone entry to Sri Lanka for any reason.
+

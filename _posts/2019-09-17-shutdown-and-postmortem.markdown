@@ -2,7 +2,7 @@
 layout: post
 title: Postmortem
 description: We made a mistake. Here's what happened and here's how we're fixing it.
-date: 2019-11-17
+date: 2019-09-17
 author: yudha
 image: '/images/articles/postmortem/main.jpg'
 tags: [investigation, healthcare]

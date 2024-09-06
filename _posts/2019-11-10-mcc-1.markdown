@@ -1,0 +1,183 @@
+---
+layout: post
+title: Millennium Challenge Corporation — Fact Check (Part 1/3)
+description: A compilation of the MCC factchecks
+date: 2019-11-10
+author: nisal
+image: '/images/articles/mcc/header.png'
+tags: [investigation, mcc]
+tags_color: '#835F46'
+---
+by [Nisal Periyapperuma](/authors/nisal)
+
+
+THIS IS PART ONE OF OUR SERIES ON THE MCC — theese are collected fact checks. Part two will explain the agreement in details and clarify questions sent in by our readers.
+
+## Resources:
+
+- Link to the MCC Agreement: https://drive.google.com/file/d/120Qi_8tNapsT-B97ss9YXIgdXV5MD0Am/view?usp=drive_open
+- Link to the Constraint Analysis: https://assets.mcc.gov/content/uploads/constraints-analysis-sri-lanka.pdf
+- Link to resources from MCC: mcc.gov
+- Millenium Challenge Act from 2003: https://www.mcc.gov/content/uploads/2017/05/mca_legislation.pdf
+
+
+## Claims from the video from Tissa Jananayake (A Tuition Master)
+
+
+### [X] FALSE: Sri Lanka is going to sell 1.2 million acres of land for Rs. 180 per acre
+
+There is no mention of an "American corridor" or 1.2 million acres of land in the agreement.
+
+### [X] FALSE: MCA - Sri Lanka is an American Company
+
+MCA - Sri Lanka is a company limited by guarantee under Sri Lanka’s Companies Act No. 7 of 2007.
+
+The Sri Lankan Government has principal responsibility for overseeing and managing the implementation of the project.
+
+Board of Directors of MCA - Sri Lanka shall consist of: (Source: Annex I - 34 of the MCC Agreement)
+
+    Representative from the President’s Office
+    Representative from the Prime Minister’s Office
+    Secretary to the Ministry of Finance
+    Secretary to the Ministry of Transport and Civil Aviation
+    Secretary to the Ministry of Land and Parliamentary Reforms
+    Secretary to the Ministry of Megapolis and Western Development
+    Secretary to the Ministry of Highway and Road Development and Petroleum Resources Development
+    Secretary to the Ministry of Women and Children’s Affairs and Development of Dry Zone
+    One private sector representative
+    Two civil society representatives
+
+See sections 3.2 (a) and (b) of the MCC Agreement — Government Responsibilities:
+
+![Board]({{site.baseurl}}/images/articles/mcc/MCA-board.png)
+
+### [X] FALSE: A "Terrorism Prevention Act" is part of the agreement. Sri Lankans who speak against this agreement will be considered terrorists and arrested.
+
+No part of the agreement mentions a Terrorism Prevention Act.
+
+### [X] FALSE: Government Land in the “American Corridor” will be handed over to an American Company called MCA-Sri Lanka. 
+
+There is no mention of a "Land Corridor" in the agreement
+
+Where is the map from?
+
+![Map]({{site.baseurl}}/images/articles/mcc/mcc-maps.png)
+
+The map is part of the National Physical Planning Policy & the Plan – 2050 from the National Physical Planning Department. It is not part of the MCC agreement: see(https://drive.google.com/file/d/1dkr0yI01gyeUTue1j3dlkHXKo7ryV2wU/view)
+
+A map does appear in the Sri Lanka Constraints Analysis Report published in 2017 by the Government of Sri Lanka, MCC, and Centre of International Development at Harvard University that connects Colombo and Trincomalee. However, it is linked as a footnote under a section that analyses a trip from Trincomalee to Colombo Harbour. It is not related to the National Physical Planning Policy Map.
+
+The excerpt where the map is linked (Figure 5.3 links to the aforementioned map):
+
+    “A more detailed look at the trip from Trincomalee to the Port of Colombo—which is reportedly an important route from an export standpoint—reveals how and why speeds are low (Figure 5.3). 43 National roads in Sri Lanka are subject to urban traffic jams, as they pass through city centers and towns in ways a proper expressway never would. On the route in question, the urban center of Kurunegala has to be negotiated rather than bypassed.”
+
+    (Source: https://assets.mcc.gov/content/uploads/constraints-analysis-sri-lanka.pdf) Page: 30 Paragraph: 1
+
+### [X] FALSE: Mr Jananayake goes on to claim that multiple “Sub-Saharan African” countries and Haiti had implemented MCC programs and failed.
+
+Here’s the breakdown of the countries he mentioned in the video:
+
+(Source: https://www.mcc.gov/where-we-work )
+
+#### Tanzania
+
+MCC Threshold: $11,200,000 (Source: https://www.mcc.gov/where-we-work/program/tanzania-threshold-program)
+
+    Signed in 2006.
+    Closed in 2008.
+
+MCC Compact I: $698,136,000 (Source: https://www.mcc.gov/where-we-work/program/tanzania-compact)
+
+    Signed in 2008.
+    Closed in 2013.
+
+MCC Compact II (Source: https://www.mcc.gov/where-we-work/program/tanzania-proposed-compact)
+
+    November 2014: Signed a 609(g) agreement of $9.78 million to study, design and develop a compact program which was presented to MCC’s investment management committee.
+    March 28, 2016: MCC suspended partnership raising concerns about the nullification of election results in Zanzibar. (Source: https://www.mcc.gov/news-and-events/release/stmt-032816-tanzania-partnership-suspended)
+
+    On March 20, 2016, Tanzania moved forward with a new election in Zanzibar that was neither inclusive nor representative, despite the repeated concerns of the U.S. Government and the international community.  The Government of Tanzania has also not taken measures to ensure freedom of expression and association are respected in the implementation of the Cybercrimes Act.(sic)
+
+#### Madagascar
+
+MCC Compact: $110,000,000 (Source: https://www.mcc.gov/where-we-work/program/madagascar-compact)
+
+    Signed in 2005
+    Terminated: August 31, 2009
+
+    MCC terminated its compact with Madagascar due to an undemocratic transfer of power that took place in March 2009. MCC worked with MCA-Madagascar to ensure an orderly closeout of the program.
+
+Sources:
+
+    https://www.mcc.gov/where-we-work/program/madagascar-compact
+    https://www.nytimes.com/2009/02/01/world/africa/01madagascar.html
+
+#### Ethiopia
+
+December 2018, the MCC Board of Directors selected Ethiopia as eligible to develop a threshold program. No agreement has been signed yet. (Source: https://www.mcc.gov/where-we-work/program/ethiopia-proposed-threshold-program)
+
+#### Somalia 
+
+Never considered
+
+#### Nigeria
+
+Never considered
+
+#### Haiti
+
+Never considered. Haiti has never passed the basic criteria since MCC was launched in 2004. (Source: https://www.mcc.gov/resources?fwp_resource_country=6094&fwp_resource_type=scorecard)
+
+In addition to that, we couldn’t find any resources about the Titanium reserves mentioned in the video. (https://s3-us-west-2.amazonaws.com/prd-wret/assets/palladium/production/mineral-pubs/country/2011/myb3-2011-dr-ha.pdf)
+Claims on a Twitter Thread by @DocaAyya
+
+
+### [X] FALSE: GDP Per Capita has reduced significantly in 37 countries out of 44 in comparison to the time of entering the MCC agreement.
+
+Out of 29 recipient countries, ONLY THREE countries have a lower GDP Per Capita (2018) following the Compact Grant Assistance by MCC.
+
+Here are those countries:
+
+Liberia (Compact signed in 2015)
+
+    GDP Per Capita in 2015: $710
+    GDP Per Capita in 2018: $674
+
+Malawi (Compact signed in 2011)
+
+    GDP Per Capita in 2011: $535
+    GDP Per Capita in 2018: $389
+
+Zambia (Compact signed in 2012)
+
+    GDP Per Capita in 2012: $1,763
+    GDP Per Capita in 2018: $1,539
+
+### [X] FALSE: All are “Third World Countries” except for Indonesia:
+
+![Doca]({{site.baseurl}}/images/articles/mcc/doca.png)
+
+It’s unclear what the definition of “Third World Countries” here is, but the GDP per capita of Indonesia at the time of signing the MCC Compact agreement was $3,643.044 (2011). Both Jordan ($3,656 in 2010) and Namibia ($4,153 in 2008) had a GDP Per Capita higher than $3,643.044 at the time of the signing. In addition to that, Mongolia ($4,104 in 2018) and Georgia ($4,341 in 2013) had a higher GDP Per Capita at the time of signing their second compact agreement.
+
+    Note: All GDP Per Capita figures are adjusted for inflation and are in current (2019) US$. (Source: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD)
+
+### [X] FALSE: Of 44 MCC signed countries, 40 have US military bases now.
+
+### [X] FALSE: 38 countries out of 44 have signed SOFA agreements which allowed the US military to enter into their country.
+
+We made an inquiry to the US Embassy in Sri Lanka about military bases, SOFA, and MCC. Here are the responses we got over email — verbatim:
+
+    MCC has provided Compact grant assistance to 29 countries. It is a U.S. development assistance agency, like USAID, and has no relation whatsoever to the U.S. military or military bases. MCC uses a competitive selection process to fairly and transparently select partners based on how they perform against their peers in the same income category on 20 different transparent, third-party indicators of economic growth, rule of law, and investing in people. (See Sri Lanka’s scorecard.) Where MCC partners and works is completely unrelated to the U.S. military.
+    MCC has no connection whatsoever to the U.S. military or SOFA. As a U.S. development assistance agency, MCC is prohibited by U.S. law from providing any military or military-related assistance whatsoever. There is zero connection between MCC and the U.S. military.
+
+### Notes:
+
+609(g) agreement of  TITLE VI--MILLENNIUM CHALLENGE ACT OF 2003:
+
+(g) ASSISTANCE FOR DEVELOPMENT OF COMPACT.--Notwithstanding subsection (a), the Chief Executive Officer may enter into contracts or make grants for any eligible country for the purpose of facilitating the development and implementation of the Compact between the United States and the Country.
+
+Difference between "Closure" and "Closed" (response from the representative from the US Embassy)
+
+"Closed” means the five years are up, plus the 120-day (max) administrative closeout period to pay final invoices for work completed before the compact end date, archive everything, and close down the office is up.
+
+Compacts in “closure” are those in the 120-day closeout period. The five-year clock has ended, but they’re just wrapping up outstanding paperwork, paying final invoices, etc. We have no compacts in closure presently. Georgia II shows as still being in closure on our website, but closure ended about 10 days ago. We need to update the status online.

@@ -1,0 +1,313 @@
+---
+layout: post
+title: Millennium Challenge Corporation — Overview (Part 2/3)
+description: A compilation of the MCC factchecks
+date: 2019-11-12
+author: nisal
+image: '/images/articles/mcc/mcc-2-header.png'
+tags: [investigation, mcc]
+tags_color: '#835F46'
+---
+by [Nisal Periyapperuma](/authors/nisal)
+
+## Resources
+- [MCC Sri Lanka Agreement](https://drive.google.com/file/d/120Qi_8tNapsT-B97ss9YXIgdXV5MD0Am/view)
+- [Constraint Analysis](https://assets.mcc.gov/content/uploads/constraints-analysis-sri-lanka.pdf)
+- [MILLENNIUM CHALLENGE ACT OF 2003](https://www.mcc.gov/content/uploads/2017/05/mca_legislation.pdf)
+- [Congressional Research Service Report](https://fas.org/sgp/crs/row/RL32427.pdf)
+- [Daily Mirror, with the timelines confirmed independently by Watchdog](http://www.dailymirror.lk/print/news-features/MCC-Deal-Truth-false-and-opinions/131-177498)
+
+Note: The Congressional Research Service (CRS) works exclusively for the United States Congress, providing policy and legal analysis to committees and Members of both the House and Senate, regardless of party affiliation. (http://www.loc.gov/crsinfo/)
+
+## What is the Millennium Challenge Corporation?
+
+The Millennium Challenge Corporation (MCC) provides economic assistance through a competitive selection process to developing nations that demonstrate positive performance in three areas: ruling justly, investing in people, and fostering economic freedom. From the outset, Congress has been integrally involved with MCC's creation, mandate, operations, and budgets.
+
+- Congress approved the new initiative in January 2004 in the Millennium Challenge Act of 2003
+- It established MCC as a government entity separate from the Department of State, the Treasury, and the U.S. Agency for International Development (USAID)
+
+Sources: 
+- Congressional Research Service Report / MCC Website)
+
+
+![orgchart]({{site.baseurl}}/images/articles/mcc/mcc-2-orgchart.png)
+
+## What are MCC Grants?
+
+### Threshold Programs
+
+Threshold programs are smaller grants focused on policy and institutional reform in selected countries that come close to passing MCC's eligibility criteria and show a firm commitment to improving their policy performance. These programs are designed to assist promising candidate countries to become compact eligible.
+
+- Number of countries awarded: 29
+- Grant Statuses:
+  - Closed: 23
+  - Closure: 1
+  - Development: 3
+  - Implementation: 4
+- Median grant value: US $ 16,898,160
+
+### MCC Compact
+
+MCC compacts are five-year grant agreements, proposed and implemented by well-governed countries. Compacts aim to achieve poverty reduction through economic growth by targeting the principal "binding constraints to growth" in an economy. To date, the MCC Board has approved 37 compacts in 29 countries worth more than $13 billion.
+
+- Number of countries awarded: 29
+- Grant Statuses:
+  - Closed: 24
+  - Closure: 1
+  - Development: 8
+  - Implementation: 7
+  - Signed: 3
+  - Suspended: 1
+  - Terminated: 2
+- Median grant value: US $ 362,551,000
+
+### Eligibility for Compact
+
+To be eligible for an MCC Compact grant, the G.N.I. Per capita of the country should be less than ~$4000. 
+
+![orgchart]({{site.baseurl}}/images/articles/mcc/mcc-2-eligibility.png)
+
+The countries are also scored based on 20 third-party indicators.
+
+![kpis]({{site.baseurl}}/images/articles/mcc/mcc-2-kpis.png)
+
+Sources:
+
+- https://www.mcc.gov/about
+- Congressional Research Service Report: https://fas.org/sgp/crs/row/RL32427.pdf
+
+## What is MCC Sri Lanka?
+
+We'll let the Sri Lankan MFA (Ministry of Foreign Affairs) describe it:
+
+> Sri Lanka was selected as eligible for a Compact Programme under the U.S. Millennium Challenge Cooperation (MCC) at the meeting of the MCC Board of Directors held in Washington DC on 13 December.
+
+> Compact Programmes are large, five-year grants for countries that meets MCC’s eligibility criteria of good governance, economic freedom and investment in its citizens. The selections are based on performance indicators of these criteria compiled by the MCC in an annual scorecard for countries under consideration.
+
+> Following the selection, the Board’s decision was conveyed over the telephone to Prime Minister Ranil Wickremesinghe, by a senior official of the MCC.
+
+> Created by the U.S. Congress in 2004 with bipartisan support, the MCC is a unique U.S. agency that operates on the principle of delivering assistance on the basis of a long-term consultative partnership with recipient countries. Country ownership and country-led solutions for reducing poverty through sustainable economic growth are the underlying principles on which MCC grants are provided. Grants are designed to complement other U.S. and international development programmes, and to create an enabling environment for private sector investment.
+
+> The MCC Board is chaired by the US Secretary of State. Its members include the Secretary to the Treasury, the U.S. Trade Representative, the USAID Administrator, the Chief Executive Officer of MCC and four private sector representatives. The Board members are appointed by the President of the United States with the advice and consent of the U.S. Senate.
+
+> In December 2015, Sri Lanka was selected as eligible for a Threshold Programme by the MCC Board. Threshold Programs are smaller grants awarded to countries that come close to MCC’s eligibility criteria, and are firmly committed to improving policy performance. During the past year, MCC in partnership with the government of Sri Lanka conducted a Constraints to Growth Analysis to determine the binding impediments to economic growth with a view to designing a Threshold Programme for poverty reduction. With Sri Lanka’s selection for a Compact Programme this year, MCC and Sri Lanka will now begin to develop a much larger programme to fight poverty and improve standards of living.
+
+> Sri Lanka’s selection for a longer-term Compact Programme only a year after being selected for a Threshold Programme is based on Sri Lanka’s demonstrated progress, including on democratic rights, since January 2015 by the national unity government.  The award of a Compact is aimed at providing further impetus to the government’s political and economic reforms for achieving sustainable peace and economic prosperity.
+
+Here's the MCC Town hall announcing Sri Lanka's selection into the MCC Compact program: 
+
+https://www.mcc.gov/news-and-events/video/video-121616-post-board-town-hall
+and
+https://mfa.gov.lk/sl-mcc/
+
+And a timeline of activities:
+
+![DM]({{site.baseurl}}/images/articles/mcc/mcc-2-dailymirror.jpg)
+
+And the scorecards for Sri Lanka's cited progress: 
+
+![scorecard]({{site.baseurl}}/images/articles/mcc/mcc-2-scorecard.png)
+
+![scorecard2]({{site.baseurl}}/images/articles/mcc/mcc-2-scorecard2.png)
+
+### The Constraint Analysis
+
+This was an overall analysis Prepared by:
+- The Government of Sri Lanka — Led by Mr. Charitha Ratwatte, Heads of Policy Development Office and Senior Advisor to the Prime Minister
+- The Millennium Challenge Corporation of the United States of America
+- Harvard University's Center for International Development
+
+Separate meetings were also held with:
+- Ministries and agencies
+- Board of Investment (BOI)
+- American and Ceylon Chambers of Commerce
+- Other private sector and civil society stakeholders in Colombo
+
+MCC and the Government of Sri Lanka agreed that the analysis identifies three binding constraints to economic growth:
+1. Lack of access to land (Section 2.1)
+2. Policy uncertainty (Section 2.2)
+3. Inadequate overland transport. (Section 2.3)
+
+Other issues identified in the course of the analysis:
+- The capacity of electricity and access to water and wastewater services for certain industries and areas of the country.
+- The shortage of skills in science, technology, engineering and math (STEM).
+
+### Access to Land (Section 2.1) — Summary
+
+- The Sri Lankan State owns approximately 80 percent of land through multiple ministries.
+- Poor coordination, slow and unclear process resulting in the inability to match the demand for land needed for private sector investment, including export-oriented FDI.
+- Problems with land use and titling affect manufacturing, agriculture, construction, residential and commercial development, and tourism.
+- Restrictions on land parcel size, the absence of land titles, and longstanding laws affecting rural land use all reduce agricultural productivity and rural well-being.
+- Existing laws disadvantage the property rights of women.
+- Development of new industrial zones has not kept pace with the demand.
+- 50 acre per person restriction prevents economies of scale in the case of large private sector agriculture investment.
+
+![land({{site.baseurl}}/images/articles/mcc/mcc-2-land.png)
+
+
+### High Costs of Overland Transport (Section 2.3) — Summary
+
+- Economic activity is concentrated in the Colombo metropolitan area and the surrounding Western Province.
+- Movement of goods and people within the Western Province is increasingly problematic.
+- The current state of transport infrastructure generally frustrates the development of inter-regional economic activity and arguably the suitability of locating investments outside the western region and near other concentrations of population on the island.
+
+## What was the eventual MCC Agreement?
+
+**Official Title**: Millennium Challenge Compact between The United States of America Acting Through the Millennium Challenge Corporation and The Democratic Social Republic of Sri Lanka Acting Through The Ministry of Finance
+
+**Compact Goal**: Promoting economic growth and the elimination of extreme poverty in Sri Lanka.
+
+All of this was to happen through MCA - Sri Lanka.
+
+### MCA — Sri Lanka
+
+MCA - Sri Lanka is a company limited by guarantee under Sri Lanka's Companies Act No. 7 of 2007.
+
+The Sri Lankan Government has principal responsibility for overseeing and managing the implementation of the project.
+
+Board of Directors of MCA - Sri Lanka shall consist of:
+1. Representative from the President's Office
+2. Representative from the Prime Minister's Office
+3. Secretary to the Ministry of Finance
+4. Secretary to the Ministry of Transport and Civil Aviation
+5. Secretary to the Ministry of Land and Parliamentary Reforms
+6. Secretary to the Ministry of Megapolis and Western Development
+7. Secretary to the Ministry of Highway and Road Development and Petroleum Resources Development
+8. Secretary to the Ministry of Women and Children's Affairs and Development of Dry Zone
+9. One private sector representative
+10. Two civil society representatives
+
+![responsibilities]({{site.baseurl}}/images/articles/mcc/mcc-2-responsibilities.png)
+
+
+### Project Objectives
+
+#### Transport Project
+
+- To increase relative efficiency and capacity of the road network and bus system in the Colombo Metropolitan Region (CMR).
+- To reduce the cost of transport in order to facilitate the flow of passengers and goods between the central region of the country and ports and markets.
+
+#### Land Project
+
+- To increase the availability of information on private land and under-utilized state land in order to increase land market activity.
+
+### Funding and Resources
+
+**Total Project Funding**: US$480,000,000
+
+Funding Breakdown:
+- Program Funding (US$ 447,500,000)
+  - For the use by the Sri Lankan Government to implement the Program.
+- Compact CDF (US$ 32,500,000)
+  - For use by the Government to facilitate implementation of this Compact, including for the following purposes:
+    - Financial management and procurement activities
+    - Administrative activities
+    - Monitoring and evaluation activities
+    - Feasibility, design, and other project preparatory studies
+    - Other activities to facilitate the Compact implementation as requested by the Government and approved by MCC
+
+![annex2]({{site.baseurl}}/images/articles/mcc/mcc-2-annex2.png)
+
+
+### Transport Project
+
+**Objectives**:
+- Increase the relative efficiency and capacity of the road network and bus system in the CMR (Colombo Metropolitan Area).
+- To reduce the cost of transport in order to facilitate the flow of passengers and goods between the central region of the country and ports and markets.
+
+**How to achieve**:
+- Upgrading physical road networks
+- Modernising the traffic system
+- Improving performance of the public transportation system
+- Introducing an enabling policy and regulatory environment
+- Providing technical assistance to transport agencies and other relevant stakeholders
+
+**The project is comprised of**:
+1. Advanced Traffic Management System (ATMS)
+  - Reduce cost of transportation on the movement of goods and people in the CMA (Colombo Metropolitan Area).
+  - Aims to reduce relative travel time by reducing traffic delays
+  - Improving road safety in the most heavily congested arterial corridors
+2. Bus Transport Service Modernisation (BTSM)
+3. Central Ring Road Network (CRRN)
+  - Reduce the transport cost of people and goods by improving five sections along the road network (Total length: ~131km) connecting the Western Province to :
+    - Central
+    - Sabaragamuwa
+    - Uva
+    - Eastern provinces
+
+![ring]({{site.baseurl}}/images/articles/mcc/mcc-2-ring.png)
+
+
+Transport project has been screened as "Category B" in accordance with the MCC Environment Guidelines because potential environmental and social impacts are generally site-specific, few if any are irreversible, and mitigation measures are generally well understood. (Annex I - 25).
+
+The agreement highlights and raises concerns about potential land acquisition and resettlement that might be needed to facilitate ATMS and CRRN Activities. 
+
+### Land Project
+
+**Project Objectives**:
+
+- Increase the availability of information on private land and under-utilized state lands in order to increase land market activity.
+- Increase tenure security and tradability of land for smallholders, women, and firms through policy and legal reforms.
+- Land activities build on existing government initiatives such as:
+  - the Electronic State Land Information Management System (eSlims)
+  - eLand registry system (eLand Registry)
+  - "Bim Saviya" program, which has not been able to realize its potential due to lack of resources.
+
+**Activities of the Land Project**:
+
+1. The Parcel Fabric Map and State Land Inventory Activity
+  - Creation of a parcel fabric map that covers up to 28% of the land area of Sri Lanka, focused on seven "targeted districts.":
+    - Anuradhapura
+    - Kandy
+    - Kegalle
+    - Kurunegala
+    - Matale
+    - Pollonnaruwa
+    - Trincomalee
+  - Builds on top of Sri Lankan Goverment's eSlims initiative.
+
+2. The Deeds Registry Improvement Activity
+  - Digitizing paper deeds, capturing key legal rights and land parcel identification data.
+  - Records to be uploaded to the eLand registry.
+  - Digitized records will be linked to the Digital Parcel Fabric to provide spatial context.
+
+3. Land Valuation System Improvement Activity
+  - Supporting digitization of valuation documents and government efforts to move information to the digital valuation by ICTA and the Valuation Department (Department under the Ministry of Finance)
+
+4. Land Grants Registration and Deed Conversion Activity
+  - Registration of Absolute Land Grants Sub-Activity (The Sri Lankan Government withdrew the bill referenced in this section. Hence, the section should be removed in the next version of the grant agreement):
+    - Supports Sri Lankan Government's efforts to convert permits and grants in State Land to "absolute land grants" that are expected to be registered as freehold rights in land.
+    - Sub-activity would support the conversion of State Lands to the private domain, creating a marketable and bankable title to this land in the name of the land holder.
+    - The Land Special Provisions Act (LSPA) is expected to define the process the Government shall use for this conversion of land rights.
+  - Conversion of Deeds Sub-Activity
+    - Supports expansion and improvement of the "Bim Saviya" program. The Sri Lankan Government has been converting private properties from the deeds system to the title registration system under "Bim Saviya" since 2006.
+    - MCC funding for this sub-activity is contingent upon the enactment of amendments to the Registration of Title Act of 1998 ("RTA") that addresses the difficulties in moving deeded properties into the title system.
+
+5. Land Policy and Legal Governance Improvement Activity
+
+  - The establishment of a Land Policy Research Group (LPRG) at a high level of government.
+  - MCC funding will support hiring staff and equipting an office for the duration of the Land Project.
+  - Objectives and responsibilities of the LRPG:
+    - Direct policy studies.
+    - Support Sri Lankan Government's efforts to adopt new land policy and enact supporting legistlation.
+    - Technical support, organizing, public outreach etc.
+
+## Land Projects in other countries under MCC
+
+<div class="table-container">
+ <table>
+    <tr><th>Agreement</th><th>Signed</th><th>Completed</th><th>Status</th><th>Remarks</th></tr>
+    <tr><td>Benin Compact</td><td>February 22, 2006</td><td>October 6, 2011</td><td>Closed</td><td>Access to Land Project</td></tr>
+    <tr><td>Burkina Faso Compact</td><td>July 14, 2008</td><td>July 31, 2014</td><td>Closed</td><td>Rural Land Governance Project</td></tr>
+    <tr><td>Ukraine Threshold Program</td><td>December 4, 2006</td><td>December 31, 2009</td><td>Closed</td><td>Sub-Project of: Strengthen Civil Society Project</td></tr>
+    <tr><td>Senegal Compact</td><td>September 16, 2009</td><td>September 23, 2015</td><td>Closed</td><td>Sub-Project of: Irrigation and Water Resource Management Project</td></tr>
+    <tr><td>Namibia Compact</td><td>July 28, 2008</td><td>September 16, 2014</td><td>Closed</td><td>Sub-Project of Agriculture Project</td></tr>
+    <tr><td>Moazambique Compact</td><td>July 13, 2007</td><td>September 22, 2013</td><td>Closed</td><td>Land tenure services project</td></tr>
+    <tr><td>Mongolia Compact</td><td>October 22, 2007</td><td>September 17, 2013</td><td>Closed</td><td>The Property Rights Project</td></tr>
+    <tr><td>Mali Compact</td><td>November 13, 2006</td><td>August 24, 2012</td><td>Terminated in 2012 (coup)</td><td>Alatona irrigation project</td></tr>
+    <tr><td>Madagascar Compact</td><td>April 18, 2005</td><td>August 31, 2009</td><td>Terminated in 2009 (undemocratic transfer of power)</td><td>The Land Tenure Project</td></tr>
+    <tr><td>Lesotho Compact</td><td>July 23, 2007</td><td>September 17, 2013</td><td>Closed</td><td>Subproject: (Indirect effect on land) Private sector development project</td></tr>
+    <tr><td>Ghana Compact</td><td>August 1, 2006</td><td>February 16, 2012</td><td>Closed</td><td>The Land Title Facilitation Activity (LTF)</td></tr>
+    </table>
+</div>
+

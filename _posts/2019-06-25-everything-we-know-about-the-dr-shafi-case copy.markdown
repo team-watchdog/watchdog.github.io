@@ -9,7 +9,7 @@ video_embed: https://www.youtube.com/embed/62bWUYRxi8g
 tags: [investigation, healthcare]
 tags_color: '#835F46'
 ---
-Here is the article content extracted and formatted as Markdown:
+
 by [Nisal Periyapperuma](/authors/nisal)
 
 
