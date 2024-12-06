@@ -8,7 +8,7 @@ image: /images/articles/economy2022/banner.png
 video_embed: 
 tags:
   - economy
-  - sinhala
+  - tamil
 tags_color: "#835F46"
 ---
 
