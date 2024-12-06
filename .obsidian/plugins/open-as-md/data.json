@@ -1,0 +1,12 @@
+{
+  "mySetting": "txt,nfo,json,htm,html,css,scss,markdown",
+  "mySettingArray": [
+    "txt",
+    "nfo",
+    "json",
+    "htm",
+    "html",
+    "css",
+    "scss"
+  ]
+}
