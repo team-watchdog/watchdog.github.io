@@ -4,11 +4,12 @@ title: Postmortem
 description: We made a mistake. Here's what happened and here's how we're fixing it.
 date: 2019-09-17
 author: yudha
-image: '/images/articles/postmortem/main.jpg'
-tags: [investigation, healthcare]
-tags_color: '#835F46'
+image: /images/articles/postmortem/main.jpg
+tags:
+  - internal
+tags_color: "#835F46"
 ---
-by [Yudhanjaya Wijeratne](/authors/yudha)
+Written by [Yudhanjaya Wijeratne](/authors/yudha)
 
 On September 15th 2019, at 7:04:41 pm, we published a news update titled “Accident on Southern Expressway - so far 16 people dead on the spot and 1 dead in Colombo.”
 

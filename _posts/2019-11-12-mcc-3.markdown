@@ -4,11 +4,14 @@ title: Millennium Challenge Corporation — Questions (Part 3/3)
 description: A compilation of the MCC factchecks
 date: 2019-11-12
 author: nisal
-image: '/images/articles/mcc/mcc-2-header.png'
-tags: [investigation, mcc]
-tags_color: '#835F46'
+image: /images/articles/mcc/mcc-2-header.png
+tags:
+  - mcc
+  - infrastructure
+  - economy
+tags_color: "#835F46"
 ---
-by [Nisal Periyapperuma](/authors/nisal)
+Written by [Nisal Periyapperuma](/authors/nisal)
 
 We raised the questions our users and ourselves had about the MCC agreement to the U.S. Embassy in Colombo. Special thanks to Benjamin J. Baughman of the U.S. Embassy in Colombo.
 

@@ -4,11 +4,14 @@ title: Millennium Challenge Corporation — Fact Check (Part 1/3)
 description: A compilation of the MCC factchecks
 date: 2019-11-10
 author: nisal
-image: '/images/articles/mcc/header.png'
-tags: [investigation, mcc]
-tags_color: '#835F46'
+image: /images/articles/mcc/header.png
+tags:
+  - mcc
+  - infrastructure
+  - economy
+tags_color: "#835F46"
 ---
-by [Nisal Periyapperuma](/authors/nisal)
+Written by [Nisal Periyapperuma](/authors/nisal)
 
 
 THIS IS PART ONE OF OUR SERIES ON THE MCC — theese are collected fact checks. Part two will explain the agreement in details and clarify questions sent in by our readers.

@@ -4,11 +4,14 @@ title: Millennium Challenge Corporation — Overview (Part 2/3)
 description: A compilation of the MCC factchecks
 date: 2019-11-12
 author: nisal
-image: '/images/articles/mcc/mcc-2-header.png'
-tags: [investigation, mcc]
-tags_color: '#835F46'
+image: /images/articles/mcc/mcc-2-header.png
+tags:
+  - mcc
+  - infrastructure
+  - economy
+tags_color: "#835F46"
 ---
-by [Nisal Periyapperuma](/authors/nisal)
+Written by [Nisal Periyapperuma](/authors/nisal)
 
 ## Resources
 - [MCC Sri Lanka Agreement](https://drive.google.com/file/d/120Qi_8tNapsT-B97ss9YXIgdXV5MD0Am/view)
