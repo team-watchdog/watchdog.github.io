@@ -7,6 +7,7 @@ author: yudha
 image: /images/articles/postmortem/main.jpg
 tags:
   - internal
+  - english
 tags_color: "#835F46"
 ---
 Written by [Yudhanjaya Wijeratne](/authors/yudha)

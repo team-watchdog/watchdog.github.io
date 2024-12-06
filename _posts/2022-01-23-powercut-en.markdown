@@ -4,18 +4,22 @@ title: "The Sri Lankan powercut saga: a history of bad decisions"
 description: "Why are we having all these powercuts? And why doesn’t anyone seem to be able to do anything about it? We dig into every aspect of power generation in this country: from the power plants, to their output, to how we ran out of fuel to keep the lights on."
 date: 2022-01-23
 author: yudha,aisha,nadim,fairooz
-image: /images/articles/shafi/timeline-1.png
-video_embed: https://www.youtube.com/embed/62bWUYRxi8g
+image: /images/articles/powercuts/banner.png
+video_embed: 
 tags:
   - electricity
   - infrastructure
   - economy
+  - english
 tags_color: "#835F46"
 ---
 
 Written [Yudhanjaya Wijeratne](/authors/yudha)
+
 Edited by [Aisha Nazim](/authors/aisha)
+
 Translated by [Nadim Majeed](/authors/nadim) and [Mohamed Fairooz](/authors/fairooz)
+
 Updated 30th March, 2022.
 
 # A note of recent events

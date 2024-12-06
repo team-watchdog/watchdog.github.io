@@ -5,9 +5,10 @@ description: Digging into how lies, skewed reporting and personal vendettas lead
 date: 2019-06-25
 author: nisal
 image: /images/articles/shafi/timeline-1.png
-video_embed: https://www.youtube.com/embed/62bWUYRxi8g
+video_embed: 
 tags:
   - healthcare
+  - english
 tags_color: "#835F46"
 ---
 
