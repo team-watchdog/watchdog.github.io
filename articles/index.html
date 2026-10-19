@@ -1,0 +1,28 @@
+---
+layout: listing
+title: Articles
+description: Investigations, explainers and data stories from Watchdog, in English, Sinhala and Tamil.
+permalink: /articles/
+---
+{%- assign all = site.articles | where_exp: 'a', 'a.kind != "tool"' | sort: 'date' | reverse -%}
+<div class="filters filters--search" role="search">
+  <label class="visually-hidden" for="q">Search articles</label>
+  <input id="q" class="search-input" type="search" placeholder="Search titles and summaries in any language" autocomplete="off">
+</div>
+{%- include lang-filter.html -%}
+<div class="filters" role="group" aria-label="Filter by topic">
+  <span class="filters-label">Topic</span>
+  <button type="button" class="chip" data-cat-filter="" aria-pressed="true">All</button>
+  {%- for c in site.data.categories -%}
+  <button type="button" class="chip" data-cat-filter="{{ c.slug }}" aria-pressed="false">{{ c.title }}</button>
+  {%- endfor -%}
+</div>
+
+<p class="result-count" id="result-count" aria-live="polite"></p>
+<div class="grid grid--3" data-story-list data-filterable>
+  {%- for a in all -%}
+    {%- include canon.html a=a -%}
+    {%- if is_canon -%}{%- include story-card.html a=a -%}{%- endif -%}
+  {%- endfor -%}
+</div>
+<p class="empty-note" id="empty-note" hidden>Nothing matches. Try another language, topic or search term.</p>

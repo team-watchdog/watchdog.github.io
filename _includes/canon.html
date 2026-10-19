@@ -1,0 +1,7 @@
+{%- comment -%}
+  Sets is_canon (true when include.a is the canonical language of its translation
+  group: English if it exists, otherwise Sinhala, otherwise Tamil) and canon_group.
+{%- endcomment -%}
+{%- assign canon_group = site.articles | where: 'translation_key', include.a.translation_key | sort: 'lang' -%}
+{%- assign canon_first = canon_group | first -%}
+{%- if canon_first.url == include.a.url -%}{%- assign is_canon = true -%}{%- else -%}{%- assign is_canon = false -%}{%- endif -%}

@@ -3,6 +3,8 @@ layout: default
 ---
 
 <div class="container">
+  {% include language-switcher.html %}
+
   <div class="post-head">
     {% if page.video_embed %} {% assign videoInfo = ' post__info-video' %} {% endif %}
     <div class="post__info{{videoInfo}}">

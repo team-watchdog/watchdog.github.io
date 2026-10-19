@@ -1,0 +1,27 @@
+tagline: Exposing Misinformation, Empowering Communities
+intro: >-
+  Watchdog is an open-source research collective in Sri Lanka. We bring
+  journalism, data science and technology together. Since 2019 we have
+  hunted misinformation, investigated matters of public welfare, and built
+  software tools, either to help the country work better or to help you
+  understand how it can.
+nav:
+  - { title: Articles, url: /articles/ }
+  - { title: Tools, url: /tools/ }
+  - { title: Podcast, url: "https://anchor.fm/team-watchdog/", external: true }
+  - { title: About us, url: /about-us/ }
+footer_links:
+  - { title: Operational ethics, url: /operational-ethics/ }
+  - { title: Handling conflicts, url: /handling-conflicts/ }
+  - { title: Language guide, url: /language-guide/ }
+  - { title: Funding, url: /funders/ }
+  - { title: Privacy policy, url: /privacy-policy/ }
+social:
+  - { title: Facebook, url: "https://www.facebook.com/teamwatchdog/" }
+  - { title: Instagram, url: "https://www.instagram.com/teamwatchdog/" }
+  - { title: X (Twitter), url: "https://twitter.com/teamwatchdog" }
+  - { title: GitHub, url: "https://github.com/team-watchdog" }
+# Paste the MailerLite (or other) hosted signup form URL here to show a
+# newsletter box on the front page and in the footer. Left empty until set.
+newsletter_url: ""
+logo: /images/general/watchdoglogosq.png

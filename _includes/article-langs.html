@@ -1,0 +1,24 @@
+{%- comment -%}
+  Per-article language switcher: one link per language that exists for this story,
+  a disabled pill for the ones that do not.
+{%- endcomment -%}
+{%- assign sibs = site.articles | where: 'translation_key', page.translation_key -%}
+<nav class="article-langs" aria-label="Read this article in another language">
+  <span class="article-langs-label">Read in</span>
+  <ul>
+    {%- for l in site.data.languages -%}
+    {%- assign code = l[1].code -%}
+    {%- assign sib = sibs | where: 'lang', code | first -%}
+    <li>
+      {%- if code == page.lang -%}
+      <span class="lang-pill is-current" lang="{{ code }}" aria-current="true">{{ l[1].native }}</span>
+      {%- elsif sib -%}
+      <a class="lang-pill" href="{{ sib.url | relative_url }}" lang="{{ code }}" hreflang="{{ code }}" data-set-pref="{{ code }}">{{ l[1].native }}</a>
+      {%- else -%}
+      <span class="lang-pill is-missing" lang="{{ code }}" title="Not yet available in {{ l[1].name }}">{{ l[1].native }}</span>
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+  <p class="lang-banner" id="lang-banner" hidden></p>
+</nav>

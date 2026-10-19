@@ -1,0 +1,6 @@
+test_article_has_switcher:
+  - name: Article page includes language switcher widget
+    layout: post.html
+    title: "Test Article"
+    assert:
+      has_element: ".language-switcher"

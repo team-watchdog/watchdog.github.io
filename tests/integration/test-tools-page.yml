@@ -1,0 +1,9 @@
+test_tools_page:
+  - name: Tools page exists and loads
+    file: tools.html
+    assert:
+      exists: true
+  - name: Tools page shows tool cards
+    layout: page
+    assert:
+      has_element: ".tool-card"

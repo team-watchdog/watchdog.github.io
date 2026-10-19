@@ -1,0 +1,8 @@
+test_category_filters_posts:
+  - name: Category page filters posts by category tag
+    layout: category.html
+    category: special-reports
+    lang: english
+    assert:
+      posts_count: ">= 1"
+      posts_tags_include: "special-reports"

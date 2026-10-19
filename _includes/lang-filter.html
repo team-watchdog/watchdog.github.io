@@ -1,0 +1,7 @@
+<div class="filters" role="group" aria-label="Filter by language">
+  <span class="filters-label">Language</span>
+  <button type="button" class="chip" data-pref="auto" aria-pressed="true">Any</button>
+  {%- for l in site.data.languages -%}
+  <button type="button" class="chip" data-pref="{{ l[1].code }}" lang="{{ l[1].code }}" aria-pressed="false">{{ l[1].native }}</button>
+  {%- endfor -%}
+</div>

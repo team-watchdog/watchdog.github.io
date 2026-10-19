@@ -1,0 +1,8 @@
+test_homepage_sections:
+  - name: Homepage includes hero section
+    file: index.html
+    assert:
+      has_element: ".section-hero"
+  - name: Homepage includes featured posts section
+    assert:
+      has_element: ".section-featured-posts"

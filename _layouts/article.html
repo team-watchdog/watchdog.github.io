@@ -1,0 +1,90 @@
+---
+layout: default
+body_class: is-article
+---
+{%- assign cat = site.data.categories | where: 'slug', page.category | first -%}
+{%- assign siblings = site.articles | where: 'translation_key', page.translation_key | sort: 'lang' -%}
+{%- assign words = content | strip_html | number_of_words -%}
+{%- assign minutes = words | divided_by: 200 | plus: 1 -%}
+{%- capture src_to %}src="{{ site.baseurl }}/{% endcapture -%}
+{%- capture href_to %}href="{{ site.baseurl }}/{% endcapture -%}
+{%- capture wa_text %}{{ page.title }} {{ page.url | absolute_url }}{% endcapture -%}
+
+<article class="article" lang="{{ page.lang }}"{% for s in siblings %}{% if s.lang != page.lang %} data-sib-{{ s.lang }}="{{ s.url | relative_url }}"{% endif %}{% endfor %}>
+  <header class="article-head wrap-narrow">
+    <p class="kicker">
+      {%- if page.kind == 'tool' -%}<a class="kicker-cat" href="{{ '/tools/' | relative_url }}">Tool</a>
+      {%- elsif cat -%}<a class="kicker-cat" href="{{ '/category/' | append: cat.slug | append: '/' | relative_url }}">{{ cat.title }}</a>{%- endif -%}
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %-d, %Y' }}</time>
+      {%- if page.kind != 'tool' and words > 300 -%}<span>{{ minutes }} min read</span>{%- endif -%}
+    </p>
+    <h1 class="article-title">{{ page.title }}</h1>
+    {%- if page.description -%}<p class="article-dek">{{ page.description }}</p>{%- endif -%}
+
+    {%- include article-langs.html -%}
+
+    {%- if page.contributors.size > 0 -%}
+    <ul class="bylines" aria-label="Contributors">
+      {%- for slug in page.contributors -%}
+      {%- assign c = site.contributors | where: 'slug', slug | first -%}
+      {%- if c -%}
+      <li>
+        <a href="{{ c.url | relative_url }}">
+          {%- if c.image -%}<img class="avatar" src="{{ c.image | relative_url }}" alt="" width="32" height="32" loading="lazy">{%- else -%}<span class="avatar avatar--initials" aria-hidden="true">{{ c.name | slice: 0 }}</span>{%- endif -%}
+          <span lang="en">{{ c.name }}</span>
+        </a>
+      </li>
+      {%- endif -%}
+      {%- endfor -%}
+    </ul>
+    {%- endif -%}
+  </header>
+
+  {%- if page.image -%}
+  <figure class="article-cover">
+    <img src="{{ page.image | relative_url }}" alt="" decoding="async">
+  </figure>
+  {%- endif -%}
+
+  <div class="article-layout">
+    <aside class="toc-col" aria-label="Table of contents">
+      <nav class="toc" id="toc" hidden>
+        <details id="toc-details">
+          <summary>In this article</summary>
+          <ol id="toc-list"></ol>
+        </details>
+      </nav>
+    </aside>
+
+    <div class="article-main">
+      {%- if page.external_link -%}
+      <p class="tool-cta"><a class="btn btn--primary" href="{{ page.external_link }}" rel="noopener">Open the tool <span aria-hidden="true">↗</span></a></p>
+      {%- endif -%}
+
+      {%- if page.credits.size > 0 -%}
+      <ul class="credits">
+        {%- for c in page.credits -%}<li><span class="credits-label">{{ c.label }}</span> {{ c.names }}</li>{%- endfor -%}
+      </ul>
+      {%- endif -%}
+
+      <div class="prose" id="article-body">
+        {{ content | replace: 'src="/', src_to | replace: 'href="/', href_to }}
+      </div>
+
+      <footer class="article-foot">
+        <div class="share">
+          <span class="share-label">Share</span>
+          <button type="button" class="chip" data-copy="{{ page.url | absolute_url }}">Copy link</button>
+          <a class="chip" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | uri_escape }}">Facebook</a>
+          <a class="chip" rel="noopener" href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url | uri_escape }}&amp;text={{ page.title | uri_escape }}">X</a>
+          <a class="chip" rel="noopener" href="https://wa.me/?text={{ wa_text | uri_escape }}">WhatsApp</a>
+        </div>
+        {%- if page.original_url -%}
+        <p class="footnote-small">Originally published at <a href="{{ page.original_url }}" rel="noopener">watchdog.team</a>.</p>
+        {%- endif -%}
+      </footer>
+    </div>
+  </div>
+
+  {%- include related-stories.html -%}
+</article>

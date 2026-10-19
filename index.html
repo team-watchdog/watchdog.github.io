@@ -1,15 +1,135 @@
 ---
 layout: default
-image: '/images/102.jpg'
+title: Watchdog, Sri Lanka
+description: Watchdog is an open-source research collective in Sri Lanka. Journalism, data science and technology in English, Sinhala and Tamil.
+body_class: is-home
 ---
+{%- assign all = site.articles | where_exp: 'a', 'a.kind != "tool"' | sort: 'date' | reverse -%}
+{%- assign tools = site.articles | where: 'kind', 'tool' | sort: 'date' | reverse -%}
 
-{% include section-hero.html %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Open-source research collective &middot; Sri Lanka</p>
+      <h1 class="hero-title">{{ site.data.site.tagline }}</h1>
+      <p class="hero-text">{{ site.data.site.intro }}</p>
+      <p class="hero-actions">
+        <a class="btn btn--primary" href="{{ '/articles/' | relative_url }}">Read our work</a>
+        <a class="btn" href="{{ '/tools/' | relative_url }}">Explore the tools</a>
+      </p>
+      <p class="hero-langs" aria-label="Languages">
+        <span lang="en">English</span><span lang="si">සිංහල</span><span lang="ta">தமிழ்</span>
+      </p>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <img src="{{ site.data.site.logo | relative_url }}" alt="" width="220" height="220">
+    </div>
+  </div>
+</section>
 
-{% include section-featured-posts.html %}
+<section class="section" id="latest">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="section-title">Latest</h2>
+      {%- include lang-filter.html -%}
+    </div>
 
-{% include section-blog.html %}
+    {%- assign n = 0 -%}
+    {%- capture lead_html -%}{%- endcapture -%}
+    {%- capture rest_html -%}
+      {%- for a in all -%}
+        {%- include canon.html a=a -%}
+        {%- if is_canon and n < 5 -%}
+          {%- if n > 0 -%}{%- include story-card.html a=a variant="row" -%}{%- endif -%}
+          {%- assign n = n | plus: 1 -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endcapture -%}
+    {%- assign n = 0 -%}
+    {%- for a in all -%}
+      {%- include canon.html a=a -%}
+      {%- if is_canon and n == 0 -%}
+        {%- capture lead_html -%}{%- include story-card.html a=a variant="lead" -%}{%- endcapture -%}
+        {%- assign n = 1 -%}
+      {%- endif -%}
+    {%- endfor -%}
+    <div class="latest-grid" data-story-list>
+      <div class="latest-lead">{{ lead_html }}</div>
+      <div class="latest-rest">{{ rest_html }}</div>
+    </div>
+  </div>
+</section>
 
-{% include section-videos.html %}
+<section class="section section--tint" id="topics">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="section-title">Discover by topic</h2>
+      <a class="more-link" href="{{ '/articles/' | relative_url }}">All articles &rarr;</a>
+    </div>
+    <div class="grid grid--3 topics">
+      {%- for c in site.data.categories -%}
+      {%- assign in_cat = site.articles | where_exp: 'a', 'a.categories contains c.slug' -%}
+      {%- assign count = 0 -%}
+      {%- for a in in_cat -%}{%- include canon.html a=a -%}{%- if is_canon -%}{%- assign count = count | plus: 1 -%}{%- endif -%}{%- endfor -%}
+      <a class="topic" href="{{ '/category/' | append: c.slug | append: '/' | relative_url }}">
+        {%- if c.image -%}<img src="{{ c.image | relative_url }}" alt="" loading="lazy" decoding="async">{%- endif -%}
+        <span class="topic-body">
+          <span class="topic-title">{{ c.title }}</span>
+          <span class="topic-dek">{{ c.description }}</span>
+          <span class="topic-count">{{ count }} stor{% if count == 1 %}y{% else %}ies{% endif %}</span>
+        </span>
+      </a>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
 
-{% include section-tag.html %}
+<section class="section" id="more">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="section-title">More reading</h2>
+      <a class="more-link" href="{{ '/articles/' | relative_url }}">See everything &rarr;</a>
+    </div>
+    {%- assign n = 0 -%}
+    <div class="grid grid--3" data-story-list>
+      {%- for a in all -%}
+        {%- include canon.html a=a -%}
+        {%- if is_canon -%}
+          {%- if n >= 5 and n < 11 -%}{%- include story-card.html a=a -%}{%- endif -%}
+          {%- assign n = n | plus: 1 -%}
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
 
+<section class="section section--tint" id="tools">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="section-title">Tools we have built</h2>
+      <a class="more-link" href="{{ '/tools/' | relative_url }}">All tools &rarr;</a>
+    </div>
+    <div class="grid grid--4">
+      {%- for t in tools limit: 4 -%}
+      {%- include story-card.html a=t -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="wrap about-band">
+    <div>
+      <h2 class="section-title">Who we are</h2>
+      <p class="lede">Watchdog began in April 2019, days after the Easter Sunday bombings, as a group of concerned citizens countering misinformation. Today we are journalists, researchers and software engineers publishing open data, open code and stories in three languages.</p>
+      <p><a class="btn" href="{{ '/about-us/' | relative_url }}">Learn more about what we do</a></p>
+    </div>
+    {%- if site.data.site.newsletter_url != '' -%}
+    <div class="newsletter">
+      <h3>Get new stories by email</h3>
+      <p>Occasional email with our latest investigations and tools.</p>
+      <a class="btn btn--primary" href="{{ site.data.site.newsletter_url }}" rel="noopener">Subscribe</a>
+    </div>
+    {%- endif -%}
+  </div>
+</section>

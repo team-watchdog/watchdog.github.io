@@ -9,8 +9,8 @@ Over the years, people have given us money to do our various operations. A good 
 
 ### GIZ x LIRNEasia
 
-![giz]({{site.baseurl}}/images/general/scope-logos.png)
-![lirneasia]({{site.baseurl}}/images/general/lirneasia-logo.png)
+![giz](/images/general/scope-logos.png)
+![lirneasia](/images/general/lirneasia-logo.png)
 
 The Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH implements the Strengthening Social Cohesion and Peace in Sri Lanka programme (SCOPE) co-funded by the European Union and German Federal Foreign Office. They do this in partnership with the Sri Lankan Ministry of Justice, Prisons Affairs and Constitutional Reforms (MoJ) with LIRNEasia acting as a local partner for monitoring and evaluation. They funded us to:
 
@@ -24,7 +24,7 @@ Link: [giz.de](https://www.giz.de) and [lirneasia.net](https://www.lirneasia.net
 
 ### INTERNEWS
 
-![internews]({{site.baseurl}}/images/general/internews-logo.png)
+![internews](/images/general/internews-logo.png)
 
 Internews is a media support nonprofit working in 100+ countries. They train journalists, tackle disinformation, and help media outlets become financially sustainable. They funded us to:
 
@@ -35,7 +35,7 @@ Link: [internews.org](https://internews.org/)
 
 ### OCCRP (Primary Funder)
 
-![occrp]({{site.baseurl}}/images/general/OCCRP-logo.png)
+![occrp](/images/general/OCCRP-logo.png)
 
 The Organized Crime and Corruption Reporting Project (OCCRP) is an investigative reporting coalition that specializes in organized crime and corruption, operating in Eastern Europe, the Caucasus, Central Asia, South Asia and Central America. They funded us to:
 
@@ -48,7 +48,7 @@ Link: [occrp.org](https://www.occrp.org/en)
 
 ### IREX
 
-![irex]({{site.baseurl}}/images/general/irex-logo.svg)
+![irex](/images/general/irex-logo.svg)
 
 The International Research & Exchanges Board (IREX) is an international, nonprofit organization that specializes in global education and development in more than 100 countries.
 

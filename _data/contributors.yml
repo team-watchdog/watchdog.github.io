@@ -1,0 +1,95 @@
+- name: Yudhanjaya Wijeratne
+  username: yudhanjaya-wijeratne
+  image: /images/people/yudhanjaya.jpg
+  role: Editor-in-Chief, Researcher
+  bio: Author, data scientist and journalist. His research papers center on machine learning and corpus linguistics in resource-poor languages.
+
+- name: Aisha Nazim
+  username: aisha-nazim
+  image: /images/people/aisha.jpg
+  role: Associate Editor
+  bio: Mirror Award-winning journalist with bylines in Roar Media, Buzzfeed News, Arab News, Scroll.in, Seattle Globalist, and Ceylon Today.
+
+- name: Nisal Periyapperuma
+  username: nisal
+  image: /images/people/nisal.JPG
+  role: Co-founder, Chief Technology Officer
+  bio: A rogue SaaS engineer with a background in economics. Led engineering for the Watchdog mobile app.
+
+- name: Mohamed Fairooz
+  username: fairooz
+  image: /images/people/fairooz.jpeg
+  role: Associate Editor
+  bio: Journalist with over a decade in the field; editor of the weekly Tamil newspaper Vidivelli.
+
+- name: Nadim Majeed
+  username: nadim
+  image: /images/people/nadim.jpeg
+  role: Associate Editor and Producer
+  bio: Multidisciplinary broadcast journalist. Over a decade as a producer, TV anchor and reporter at The Capital Maharaja Organisation.
+
+- name: Umesh Moramudali
+  username: umesh
+  image: /images/people/umesh-1.jpg
+  role: Chief Economist
+  bio: Resident economist. Lectures at the University of Colombo. Former researcher at the Ceylon Chamber of Commerce and the Ministry of Finance.
+
+- name: Minoli Wijetunga
+  username: minoli
+  image: /images/people/Minoli.png
+  role: Chief Operating Officer
+  bio: Academic; research work at the University of Colombo (digital humanities) and University of Oxford (diversity and inclusion). Former editor of Groundviews.
+
+- name: Kesavan Selvarajah
+  username: kesavan
+  image: /images/people/k7.png
+  role: Translator
+  bio: A lecturer at the University of Kelaniya, developing a career that combines teaching and research while maintaining his interest in machine learning.
+
+- name: Nishadi Gunatilake
+  username: nishadi
+  image: /images/people/nishadi.jpg
+  role: Researcher and Translator
+  bio: Attorney-at-law and sworn translator. Experienced in development sector programming.
+
+- name: Ishan Marikar
+  username: ishan
+  image: /images/people/Ishan.png
+  role: Engineer
+  bio: Full-stack engineer and hacker with a background in cybersecurity. Has worked on many of Watchdog's public-facing tech.
+
+- name: Sathyajit Loganathan
+  username: sathyajit
+  image: /images/people/sathyajit.jpeg
+  role: Engineer
+  bio: Software engineer with a background in server side development, cloud infrastructure and data architecture design.
+
+- name: Sahan Panditharathne
+  username: sahan
+  image: /images/people/sahan.jpg
+  role: Engineer
+  bio: Multidisciplinary engineer and fabricator with multiple degrees in engineering and industrial automation.
+
+- name: Nimesha Periyapperuma
+  username: nimesha
+  image: /images/people/nimesha.jpg
+  role: Engineer
+  bio: Software engineer whose work with Watchdog involves the construction of a 1:1 Digital Twin of the urban design and traffic movement dynamics of the city of Colombo.
+
+- name: Tineeka De Silva
+  username: tee
+  image: /images/people/tee.jpeg
+  role: Project Manager
+  bio: Editor, writer and communications consultant on award winning corporate projects with 16+ years' experience in various industries.
+
+- name: Rukshana Rizwie
+  username: rukshana
+  image: /images/people/rukshana.png
+  role: Project Manager
+  bio: A global communications specialist and journalist with a background in project management, mainstream media research and institutional communication in Sri Lanka.
+
+- name: Amalini De Sayrah
+  username: amalini
+  image: /images/people/amalini-1.png
+  role: Researcher
+  bio: Writer, researcher and photographer, focused on human rights and marginalization; bylines in The Guardian, Firstpost, Global Voices, FT Sri Lanka, and Himal Southasian.

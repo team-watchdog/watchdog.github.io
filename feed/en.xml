@@ -1,0 +1,24 @@
+---
+layout: null
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>{{ site.title | xml_escape }} (en)</title>
+  <link>{{ '/' | absolute_url }}</link>
+  <language>en</language>
+  <description>{{ site.description | xml_escape }}</description>
+  <atom:link href="{{ '/feed/en.xml' | absolute_url }}" rel="self" type="application/rss+xml"/>
+  {%- assign items = site.articles | where: 'lang', 'en' | where_exp: 'a', 'a.kind != "tool"' | sort: 'date' | reverse -%}
+  {%- for a in items limit: 60 %}
+  <item>
+    <title>{{ a.title | xml_escape }}</title>
+    <link>{{ a.url | absolute_url }}</link>
+    <guid isPermaLink="true">{{ a.url | absolute_url }}</guid>
+    <pubDate>{{ a.date | date_to_rfc822 }}</pubDate>
+    <description>{{ a.description | xml_escape }}</description>
+  </item>
+  {%- endfor %}
+</channel>
+</rss>

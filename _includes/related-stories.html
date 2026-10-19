@@ -1,0 +1,23 @@
+{%- if page.kind != 'tool' -%}
+{%- assign pool = site.articles | where_exp: 'x', 'x.categories contains page.category' | sort: 'date' | reverse -%}
+{%- assign shown = 0 -%}
+{%- capture related_html -%}
+  {%- for r in pool -%}
+    {%- if r.translation_key != page.translation_key and r.kind != 'tool' and shown < 3 -%}
+      {%- include canon.html a=r -%}
+      {%- if is_canon -%}
+      {%- include story-card.html a=r prefer=page.lang -%}
+      {%- assign shown = shown | plus: 1 -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- if shown > 0 -%}
+<section class="section related">
+  <div class="wrap">
+    <h2 class="section-title">More from this topic</h2>
+    <div class="grid grid--3">{{ related_html }}</div>
+  </div>
+</section>
+{%- endif -%}
+{%- endif -%}
