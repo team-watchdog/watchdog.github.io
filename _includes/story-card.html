@@ -1,0 +1,38 @@
+{%- comment -%}
+  One story card for the canonical article of a group.
+  Params: a (article), variant (lead | row | card; default card)
+  All language versions travel in data-variants so js/site.js can swap the card to the
+  reader's preferred language without reloading.
+{%- endcomment -%}
+{%- assign a = include.a -%}
+{%- assign variant = include.variant | default: 'card' -%}
+{%- assign group = site.articles | where: 'translation_key', a.translation_key | sort: 'lang' -%}
+{%- if include.prefer -%}{%- assign pa = group | where: 'lang', include.prefer | first -%}{%- if pa -%}{%- assign a = pa -%}{%- endif -%}{%- endif -%}
+{%- assign cat = site.data.categories | where: 'slug', a.category | first -%}
+{%- capture vjson -%}{ {%- for g in group -%}"{{ g.lang }}":{"t":{{ g.title | jsonify }},"u":{{ g.url | relative_url | jsonify }},"d":{{ g.description | strip_html | truncate: 170 | jsonify }}}{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%} }{%- endcapture -%}
+{%- capture search_text -%}{%- for g in group -%}{{ g.title }} {{ g.description | strip_html }} {% endfor %}{{ cat.title }}{%- endcapture -%}
+<article class="card card--{{ variant }}" data-lang="{{ a.lang }}" data-cat="{{ a.categories | join: ' ' }}" data-kind="{{ a.kind }}" data-variants="{{ vjson | strip_newlines | escape }}" data-search="{{ search_text | strip_newlines | downcase | escape }}">
+  {%- if a.image -%}
+  <a class="card-media" href="{{ a.url | relative_url }}" tabindex="-1" aria-hidden="true">
+    <img src="{{ a.image | relative_url }}" alt="" loading="lazy" decoding="async">
+  </a>
+  {%- else -%}
+  <a class="card-media card-media--empty" href="{{ a.url | relative_url }}" tabindex="-1" aria-hidden="true"><img src="{{ site.data.site.logo | relative_url }}" alt="" loading="lazy" width="64" height="64"></a>
+  {%- endif -%}
+  <div class="card-body">
+    <p class="kicker">
+      {%- if a.kind == 'tool' -%}<span class="kicker-cat">Tool</span>{%- elsif cat -%}<span class="kicker-cat">{{ cat.title }}</span>{%- endif -%}
+      <time datetime="{{ a.date | date_to_xmlschema }}">{{ a.date | date: '%b %-d, %Y' }}</time>
+    </p>
+    <h3 class="card-title" lang="{{ a.lang }}"><a href="{{ a.url | relative_url }}">{{ a.title }}</a></h3>
+    {%- if variant != 'row' -%}
+    <p class="card-dek" lang="{{ a.lang }}">{{ a.description | strip_html | truncate: 170 }}</p>
+    {%- endif -%}
+    <p class="card-langs">
+      <span class="visually-hidden">Available in:</span>
+      {%- for g in group -%}
+      <a class="lang-tag{% if g.url == a.url %} is-current{% endif %}" href="{{ g.url | relative_url }}" lang="{{ g.lang }}" hreflang="{{ g.lang }}" data-tag-lang="{{ g.lang }}" title="{{ site.data.languages[g.lang].name }}">{{ site.data.languages[g.lang].short }}</a>
+      {%- endfor -%}
+    </p>
+  </div>
+</article>

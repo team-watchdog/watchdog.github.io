@@ -1,73 +1,45 @@
-# Mria is a multipurpose Jekyll blog theme.
+# Watchdog
 
-Mria is a high-quality multipurpose Jekyll theme with a unique style and clean code. You can use Mria for multipurpose like blog, magazine, portfolio, etc. This theme is fully responsive, and it looks good on all types of screens and devices. If you’re looking for a theme that is clean, high performance, and simple, the Mria theme is exactly what you’re looking for then.
+Jekyll port of [watchdog.team](https://watchdog.team/). Articles exist in English, Sinhala and Tamil; each language version is its own page, and pages in the same `translation_key` group link to each other.
 
-* * *
+## Run it
 
-### Demo
+```
+bundle install
+bundle exec jekyll serve
+```
 
-Check the theme in action [Live Demo](https://mria.netlify.app/) |
-[Artem Sheludko](https://jekyllthemes.io/developers/artem-sheludko)
+The site is configured for `https://team-watchdog.github.io/watchdog.github.io`. When it moves to its own domain, set `url` and an empty `baseurl` in `_config.yml`.
 
-* * *
+## Deploy
 
-### Theme features
+Pushes to `main` build through `.github/workflows/pages.yml`. In the repository settings, set Pages > Source to **GitHub Actions**. The workflow runs `tests/check_site.py`, which fails the build on broken links or images, missing language switchers, or translation links that are not reciprocal.
 
-- Works with GitHub Pages (host it for free)
-- Dark and light mode
-- No jQuery, only vanilla JS
-- 100% responsive Design
-- Clean and Modern Code
-- Optimized for mobile devices
-- Section featured posts
-- Section blog
-- Section videos
-- Section tag
-- Super fast performance ⚡⚡⚡
-- Social sharing buttons
-- Scroll to top button
-- Syntax highlighting (supports the Jekyll syntax highlighter)
-- Compatible with modern browsers
-- Medium style image zoom
-- Image Lazy loading
-- Image gallery
-- Tag page
-- Author page
-- Custom logo support
-- Support for multiple authors
-- Supports video posts
-- Supports contact form (Formspree)
-- Supports MailChimp newsletter
-- Supports Disqus comments
-- Supports Google Analytics
-- Ionicons icons
-- Free Google Fonts
-- Free Updates & Support
+## Writing an article
 
-* * *
+Add `_articles/<slug>.md`:
 
-### Installation
+```
+---
+title: Title
+lang: en            # en, si or ta
+translation_key: slug-of-the-english-version
+slug: <slug>
+permalink: /article/<slug>/
+date: 2025-01-31 09:00:00 +0530
+kind: story         # or tool
+category: economy   # see _data/categories.yml
+categories: [economy]
+contributors: [contributor-slug]
+description: One or two sentences.
+image: /images/library/<file>.webp
+---
+```
 
-#### Installing Ruby & Jekyll
+Give every language version the same `translation_key` and the site handles the switcher, the language filter and reader-preference swapping (stored in the browser as `wd-lang`). Contributors live in `_contributors/`.
 
-If this is your first time using Jekyll, please follow the [Jekyll docs](https://jekyllrb.com/docs/installation/) and make sure your local environment (including Ruby) is setup correctly.
+## Layout
 
-* * *
-
-### Deployment
-
-To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
-
-I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
-
-* * *
-
-### Documentation
-
-Before using the Mria theme, please read the attached documentation.
-
-* * *
-
-### Support
-
-<p>If you have any questions, please feel free to contact me by mail <a href="mailto:hi.artemsheludko@gmail.com">Contact</a><p>
+- `_layouts`, `_includes`: templates. `assets/css/site.css`, `js/site.js`: styling and behaviour.
+- `_data/site.yml`: tagline, nav, footer, social links, newsletter URL (empty until set).
+- `scripts/`: the one-off importer that built `_articles` and `_pages` from a scrape of watchdog.team. Kept for reference; it needs the scrape folder, which is not committed.

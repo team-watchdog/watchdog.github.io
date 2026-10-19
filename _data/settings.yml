@@ -48,15 +48,15 @@ author:
 # Blog Section Settings
 blog__settings:
   enable: true
-  blog__title: Latest Posts
-  blog__description:
+  blog__title: Latest Articles
+  blog__description: Our latest investigations and reports
 
 #-------------------------------
 # Videos Section Settings
 videos__settings:
   enable: true
-  videos__title: Latest Videos
-  videos__description:
+  videos__title: Latest Tools
+  videos__description: Our software tools and projects
 
 #-------------------------------
 # Tag Section Settings

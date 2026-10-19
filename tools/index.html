@@ -1,0 +1,20 @@
+---
+layout: listing
+title: Tools
+description: Open-source software built by Watchdog, from data banks and trackers to interactive stories and AI search.
+permalink: /tools/
+---
+{%- assign tools = site.articles | where: 'kind', 'tool' | sort: 'date' | reverse -%}
+<div class="grid grid--3 tool-grid">
+  {%- for t in tools -%}
+  <article class="card card--tool">
+    {%- if t.image -%}<a class="card-media" href="{{ t.external_link }}" rel="noopener" tabindex="-1" aria-hidden="true"><img src="{{ t.image | relative_url }}" alt="" loading="lazy" decoding="async"></a>{%- endif -%}
+    <div class="card-body">
+      <p class="kicker"><time datetime="{{ t.date | date_to_xmlschema }}">{{ t.date | date: '%B %Y' }}</time></p>
+      <h3 class="card-title"><a href="{{ t.url | relative_url }}">{{ t.title }}</a></h3>
+      <p class="card-dek">{{ t.description | strip_html | truncate: 220 }}</p>
+      <p class="card-actions"><a class="btn btn--primary btn--sm" href="{{ t.external_link }}" rel="noopener">Open tool <span aria-hidden="true">↗</span></a> <a class="btn btn--sm" href="{{ t.url | relative_url }}">About</a></p>
+    </div>
+  </article>
+  {%- endfor -%}
+</div>

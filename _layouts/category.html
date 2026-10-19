@@ -1,0 +1,17 @@
+---
+layout: default
+---
+{%- assign cat = site.data.categories | where: 'slug', page.category | first -%}
+{%- assign arts = site.articles | where_exp: 'a', 'a.categories contains page.category' | sort: 'date' | reverse -%}
+<div class="wrap">
+  <header class="listing-head">
+    <p class="kicker"><span class="kicker-cat">Topic</span></p>
+    <h1 class="page-title">{{ cat.title }}</h1>
+    <p class="listing-dek">{{ cat.description }}</p>
+  </header>
+  {%- include lang-filter.html -%}
+  <div class="grid grid--3" data-story-list data-filterable>
+    {%- for a in arts -%}{%- include canon.html a=a -%}{%- if is_canon -%}{%- include story-card.html a=a -%}{%- endif -%}{%- endfor -%}
+  </div>
+  <p class="empty-note" id="empty-note" hidden>No stories in this language yet. Try another language above.</p>
+</div>

@@ -1,55 +1,63 @@
----
 #-------------------------------
-# General Site Settings
-baseurl: "/watchdog.github.io" # the subpath of your site, e.g. /blog
-url: "https://team-watchdog.github.io/watchdog.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# Watchdog (Sri Lanka): port of watchdog.team to Jekyll
+#-------------------------------
+title: Watchdog, Sri Lanka
+description: Watchdog is an open-source research collective in Sri Lanka. Journalism, data science and technology in English, Sinhala and Tamil.
+lang: en
 
-#-------------------------------
-# Build Settings
+# The site is served from a project page for now. When it moves to a
+# custom domain, set baseurl to "" and url to the domain.
+url: "https://team-watchdog.github.io"
+baseurl: "/watchdog.github.io"
+
 markdown: kramdown
-permalink: /:title
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+timezone: Asia/Colombo
+
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-redirect-from
 
-paginate: 7
-paginate_path: "/blog/page/:num"
-
-#-------------------------------
-# Collections
 collections:
+  articles:
+    output: true
+  contributors:
+    output: true
   pages:
     output: true
-    permalink: /:name
-  posts:
-    output: true
-    permalink: /blog/:slug
-  authors:
-    output: true
-    permalink: /:name
 
-# Pages Path
 defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
+  - scope: { path: "", type: "articles" }
+    values: { layout: "article" }
+  - scope: { path: "", type: "contributors" }
+    values: { layout: "contributor" }
+  - scope: { path: "", type: "pages" }
+    values: { layout: "page" }
+  - scope: { path: "" }
+    values: { layout: "default" }
 
-sass:
-  sass_dir: _sass
-  style: compressed
+# Obsolete files from the first half-done port and local-only folders.
+exclude:
+  - _posts
+  - _authors
+  - _sass
+  - _plugins
+  - authors
+  - blog
+  - videos
+  - js/scripts.js
+  - js/common.js
+  - js/language-switcher.js
+  - _includes/main.scss
+  - watchdog-scrape
+  - tests
+  - scripts
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .github

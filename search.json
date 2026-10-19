@@ -1,15 +1,9 @@
 ---
 layout: null
+sitemap: false
 ---
 [
-  {% for post in site.posts %}
-    {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | array_to_sentence_string }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date | date_to_long_string }}",
-      "image"    : "{{ post.image }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
+{%- for a in site.articles -%}
+  {"title": {{ a.title | jsonify }}, "url": {{ a.url | relative_url | jsonify }}, "lang": {{ a.lang | jsonify }}, "date": {{ a.date | date: '%Y-%m-%d' | jsonify }}, "category": {{ a.category | jsonify }}, "summary": {{ a.description | strip_html | jsonify }}}{% unless forloop.last %},{% endunless %}
+{%- endfor -%}
 ]

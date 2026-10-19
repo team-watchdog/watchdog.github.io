@@ -1,0 +1,6 @@
+test_contributor_data_structure:
+  - name: Contributor structure has required fields
+    data: !data contributors.yml
+    assert:
+      has_field: "yudhanjaya"
+      has_fields: ["name", "username", "image", "role", "bio"]

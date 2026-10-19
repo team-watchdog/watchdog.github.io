@@ -1,0 +1,17 @@
+---
+layout: listing
+title: Contributors
+description: The journalists, researchers, engineers and translators behind Watchdog's work.
+permalink: /contributors/
+---
+<ul class="people">
+  {%- assign people = site.contributors | sort: 'name' -%}
+  {%- for c in people -%}
+  <li>
+    <a href="{{ c.url | relative_url }}">
+      {%- if c.image -%}<img class="avatar avatar--lg" src="{{ c.image | relative_url }}" alt="" width="72" height="72" loading="lazy">{%- else -%}<span class="avatar avatar--lg avatar--initials" aria-hidden="true">{{ c.name | slice: 0 }}</span>{%- endif -%}
+      <span>{{ c.name }}</span>
+    </a>
+  </li>
+  {%- endfor -%}
+</ul>

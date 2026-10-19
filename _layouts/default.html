@@ -1,44 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="{{ page.lang | default: site.lang }}" data-page-lang="{{ page.lang | default: site.lang }}">
 {% include head.html %}
-
-<body>
-
-  {% if site.data.settings.google-analytics %}
-    {% include google-analytics.html %}
-  {% endif %}
-
-  <!-- begin global wrap -->
-  <div class="global-wrap">
-
-    {% if site.data.settings.hero.hero__image and page.url == '/' %}
-    <!-- begin hero image -->
-    <div class="hero__image">
-      <div class="hero__image__inner">
-        <img class="lazy" data-src="{{site.data.settings.hero.hero__image}}" alt="{{site.data.settings.title}}">
-      </div>
-    </div>
-    <!-- end hero image -->
-    {% endif %}
-  
-    {% include header.html %}
-  
-    <!-- begin content -->
-    <main class="content" aria-label="Content">
-      {{ content }}
-    </main>
-    <!-- end content -->
-  
-    {% include subscribe.html %}
-  
-    {% include footer.html %}
-
-  </div>
-  <!-- end global wrap -->
-
-  <script src="{{ site.baseurl }}/js/scripts.js"></script>
-  <script src="{{ site.baseurl }}/js/common.js"></script>
+<body class="{{ page.body_class }}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  {% include header.html %}
+  <main id="main" class="site-main">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  <script src="{{ '/js/site.js' | relative_url }}" defer></script>
 </body>
-
 </html>

@@ -1,0 +1,16 @@
+# Order here is the order of the switcher.
+en:
+  code: en
+  name: English
+  native: English
+  short: EN
+si:
+  code: si
+  name: Sinhala
+  native: සිංහල
+  short: සිං
+ta:
+  code: ta
+  name: Tamil
+  native: தமிழ்
+  short: தமி

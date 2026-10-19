@@ -1,0 +1,18 @@
+- slug: special-reports
+  title: "Special Reports"
+  description: "In which we dive deep into footage to reconstruct the timeline of recent events with national implications. Expect photos, videos, maps."
+- slug: food-and-agriculture
+  title: "Food & Agriculture"
+  description: "In which we explore how food gets onto our plates, as well as the dangerous narratives and the disastrous policy decisions that led us to where we are today."
+- slug: healthcare
+  title: "Healthcare"
+  description: "In which we dissect critical healthcare issues and their impact on society, analyzing the systemic challenges  and the path to a healthier future."
+- slug: transport
+  title: "Transport"
+  description: "In which we unravel the intricate web of transportation systems, uncovering the interplay between infrastructure, technology, and urban planning that shapes how we move and connect."
+- slug: electricity
+  title: "Electricity"
+  description: "In which we illuminate the complex dynamics of the power sector, tracing the sources of energy, the evolution of grids, and the policies shaping the electrified world we inhabit."
+- slug: economy
+  title: "Economy"
+  description: "In which our resident economist explores the multi-decade reasons behind Sri Lanka’s default, examining trade, taxation and national income."

@@ -1,0 +1,37 @@
+{% assign category = page.category | default: section.category %}
+<section class="section section-tag animate">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="section__info">
+          <div class="section__head">
+            <h2 class="section__title">{{ category | capitalize }}</h2>
+            <a class="section__link" href="{{ site.baseurl }}/category/{{ category }}">See more<i class="ion ion-md-arrow-forward"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      {% for post in site.tags.[category] | limit: 3 %}
+      <div class="article col col-6 col-t-12">
+        <article class="article__inner">
+          <div class="article__head">
+            {% if post.image %}
+            <a href="{{ post.url | prepend: site.baseurl }}" class="article__image">
+              <img class="lazy" data-src="{{site.baseurl}}{{post.image}}" alt="{{post.title}}">
+            </a>
+            {% endif %}
+          </div>
+          <div class="article__content">
+            <h2 class="article__title">
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            <p>{{ post.description | strip_html | truncate: 100 }}</p>
+          </div>
+        </article>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

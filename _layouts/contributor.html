@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{%- assign mine = site.articles | where_exp: 'a', 'a.contributors contains page.slug' | sort: 'date' | reverse -%}
+<div class="wrap">
+  <header class="person-head">
+    {%- if page.image -%}<img class="avatar avatar--xl" src="{{ page.image | relative_url }}" alt="" width="120" height="120">{%- else -%}<span class="avatar avatar--xl avatar--initials" aria-hidden="true">{{ page.name | slice: 0 }}</span>{%- endif -%}
+    <div>
+      <h1 class="page-title">{{ page.name }}</h1>
+      <p class="muted">{{ mine.size }} article{% if mine.size != 1 %}s{% endif %} and tools</p>
+      {%- if page.content != '' -%}<div class="prose person-bio">{{ content }}</div>{%- endif -%}
+    </div>
+  </header>
+  <h2 class="section-title">Work with Watchdog</h2>
+  <div class="grid grid--3" data-story-list>
+    {%- for a in mine -%}{%- include canon.html a=a -%}{%- if is_canon -%}{%- include story-card.html a=a -%}{%- endif -%}{%- endfor -%}
+  </div>
+</div>
